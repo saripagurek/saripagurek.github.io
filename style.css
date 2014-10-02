@@ -5,6 +5,9 @@ body {
 	padding:0;
 	margin:0;
 	background-color:#a4d364;
+    background-image: url("flowers.jpg");
+    background-attachment: fixed;
+    background-size:cover;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -65,7 +68,7 @@ h1 {
 	padding:80px;
 	border-radius:50%;
 	text-align:center;
-	background-color:#ffb959;
+	background-color:rgba(242, 176, 176, 0.56);
 	color: #FFF;
 	font-size: 20px;
 	
