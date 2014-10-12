@@ -3,5 +3,5 @@ body {
     background-image: url("me.png") !important;
 	background-size:cover;
     */
-    transform: rotate(7deg);
+   /* transform: rotate(7deg);*/
 }
