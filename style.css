@@ -39,6 +39,11 @@ h1 {
 	vertical-align:middle;
 }
 
+h3 {
+    font-weight: normal;
+    font-style: italic;
+}
+
 #me {
 	/* When the radius of the circle for the borders is 50% of the height, it makes it a circle */
 	border-radius:50%;
