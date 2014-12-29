@@ -44,8 +44,10 @@ h3 {
     font-style: italic;
 }
 
-h4 {font-size: 70px;
-    }
+h4 {
+    font-size: 70px;
+    color: white;
+}
 
 #me {
 	/* When the radius of the circle for the borders is 50% of the height, it makes it a circle */
