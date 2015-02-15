@@ -81,9 +81,9 @@ while line=templatefile.gets
     templatetext+=line
 end
 templatefile.close
-videostuffStuff=File.open("Videos.html", "w")
-videostuffStuff.puts sari.render(templatetext, content)
-videostuffStuff.close
+videoStuff=File.open("Videos.html", "w")
+videoStuff.puts sari.render(templatetext, content)
+videoStuff.close
 
 templatefile=File.open("templates/index.html", "r")
 templatetext=""
@@ -91,6 +91,8 @@ while line=templatefile.gets
     templatetext+=line
 end
 templatefile.close
-videostuffStuff=File.open("index.html", "w")
-videostuffStuff.puts sari.render(templatetext, content)
-videostuffStuff.close
+indexStuff=File.open("index.html", "w")
+indexStuff.puts sari.render(templatetext, content)
+indexStuff.close
+
+puts "done"
