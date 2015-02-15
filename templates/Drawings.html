@@ -4,7 +4,7 @@
 		
 		<!-- The <title> is the text you see in the tab in your web browser. -->
 		<title>
-			Sari Pagurek
+			{{title}}
 		</title>
 		
 		<!--
@@ -38,23 +38,38 @@
 			<div id="header">
 			
 				<!-- The h1 tag is used for the first heading of the page (the title) -->
-				<h1>Videos</h1>
+				<h1>Drawings</h1>
 
 				<!-- This is the picture that goes next to the title -->
 				<img id="me" src="me.png" />
 				
 			</div>
 									
-				
 			
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 				
-				
-                 
-                                                
-            
-			</div>
+                
+  				{{#Drawings}}          
+                <div class="post">
+					<h2>{{title}}</h2>
+                    <h3>{{date}}</h3>
+                    {{#image}}
+                    	<img src="{{image}}">
+                    {{/image}}
+					{{{content}}}
+					<ul>
+					{{#list}}
+	                    <li>{{.}}</li>
+					{{/list}}
+					</ul>
+				</div>
+
+				{{/Drawings}}   
+
+
+
+            </div>
 			
 		</div>
 		

@@ -51,7 +51,20 @@
 			<div id="posts">
 				
 				
-                 
+                {{#Videos}}          
+                <div class="post">
+					<h2>{{title}}</h2>
+                    <h3>{{date}}</h3>
+                    {{{embed}}}
+					{{{content}}}
+					<ul>
+					{{#list}}
+	                    <li>{{.}}</li>
+					{{/list}}
+					</ul>
+				</div>
+
+				{{/Videos}} 
                                                 
             
 			</div>

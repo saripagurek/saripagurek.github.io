@@ -38,21 +38,56 @@
 			<div id="header">
 			
 				<!-- The h1 tag is used for the first heading of the page (the title) -->
-				<h1>Videos</h1>
+				<h1>Sari Pagurek</h1>
 
 				<!-- This is the picture that goes next to the title -->
 				<img id="me" src="me.png" />
 				
 			</div>
-									
+			
+			<!-- The div id="previews" is where the smaller circle post previews go -->
+			<div id="previews">
 				
+				<!-- Each circle preview you add should be in this format. You can copy and paste these -->
+				<div class="preview">
+					<a class="circle" style="background-image:url(photos/GEDC1344-medium.jpg)" href="Art projects.html">Art Projects</a>
+					<p class="date">Art Projects</p>
+				</div>
+				
+				<div class="preview">
+					<a class="circle" style="background-image:url(photos/Videos.png);" href="Videos.html">Videos</a>
+					<p class="date">Videos</p>
+				</div>
+				
+				<div class="preview">
+					<a class="circle" style="background-image:url(photos/GEDC1350-medium.jpg)" href="Drawings.html">Drawings</a>
+					<p class="date">Drawings</p>
+				</div>
+				
+			</div>
 			
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 				
-				
-                 
-                                                
+				<h4>New Posts:</h4>
+                
+                {{#NewPosts}}          
+                <div class="post">
+					<h2>{{title}}</h2>
+                    <h3>{{date}}</h3>
+                    {{{embed}}}
+                    {{#image}}
+                    	<img src="{{image}}">
+                    {{/image}}
+					{{{content}}}
+					<ul>
+					{{#list}}
+	                    <li>{{.}}</li>
+					{{/list}}
+					</ul>
+				</div>
+
+				{{/NewPosts}} 
             
 			</div>
 			

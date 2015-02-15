@@ -1,11 +1,113 @@
 {
    "posts" : [
+       
+       {
+        "date" : "September 2014",
+         "content" : "<p>I drew a weird picture of my brother.</p><p><img src='photos/10608518_10204266662340254_2046432245816912504_o.jpg'></p>",
+         "title" : "My Brother's face",
+         "category" : "Drawings",
+         "image" : "photos/IMG_20150207_102047.jpg"
+      },
+       
+       {
+         "date" : "2014",
+         "content" : "<p>You can use a CD holder to hold bracelets! Just put them over the stick like you would with the CD's.</p>",
+         "title" : "Reused CD holder",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1405.JPG"
+      },
+      {
+         "date" : "January 17, 2015",
+         "content" : "<p>It fits perfectly into a corner!</p>",
+         "title" : "Magazine holder shelf",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1408.JPG"
+      },
+      {
+         "date" : "2014",
+         "content" : "<p>You can turn a travel board game into a jewlery organizer by gluing the pieces onto the board and hanging your stuff on them.</p>",
+         "title" : "Chess Organizer",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1406.JPG"
+      },
+      {
+         "date" : "2014",
+         "content" : "<p>You can sort markers and pens in decorated jars.</p>",
+         "title" : "Jars",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1407.JPG"
+      },
+      {
+         "date" : "January 17, 2015",
+         "content" : "<p>They're fun and easy to make and decorate! If you can't get it to close, you can glue some velcro inside to keep it shut.</p>",
+         "title" : "Paper Wallet",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1409.JPG"
+      },
+      {
+         "date" : "January 2015",
+         "content" : "<p>First paint a regular 8 1/2\" x 11\" sheet of paper with a very basic watercolour design. Then cut into squares and glue it back together again in a different pattern.</p>",
+         "title" : "Water Puzzle",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1398.JPG"
+      },
+      {
+         "date" : "January 2015",
+         "content" : "<p>You can turn an oversized tanktop into a hand bag with one step! Turn it inside out and sew the bottom closed. When you turn it back it will be a bag! Then all you need to do (if you want) is decorate it!</p>",
+         "title" : "Handbag",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1404.JPG"
+      },
+      {
+         "date" : " December 25, 2014",
+         "content" : "<p>Made With:</p>",
+         "title" : "Tin foil Owl",
+         "category" : "Art Projects",
+         "list" : [
+            "Cardboard",
+            "Glue (to make the outlines 3D)",
+            "Tin foil",
+            "Coloured Sharpies"
+         ],
+         "image" : "photos/GEDC1343-medium.jpg"
+      },
+      {
+         "date" : "October 2014",
+         "content" : "<p>Painting with quote</p>",
+         "title" : "Art Quote",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1345-medium.jpg"
+      },
+      {
+         "date" : "December 26, 2014",
+         "content" : "<p>Made With:</p>",
+         "title" : "Mixed media Art",
+         "category" : "Art Projects",
+         "list" : [
+            "Patterned Paper",
+            "Buttons",
+            "Wooden Beads",
+            "Ribbon",
+            "Acrylic paint"
+         ],
+         "image" : "photos/GEDC1344-medium.jpg"
+      },
+      {
+         "date" : "November 2014",
+         "content" : "<p>Hot glue crayons to the top, and melt them with a hair drier.</p>",
+         "title" : "Melted Crayon Art",
+         "category" : "Art Projects",
+         "image" : "photos/GEDC1346-medium.jpg"
+      },
+
       {
         "date": "March 2012",
         "content": "<p>Animated video by <a href=http://davepagurek.com>David Pagurek</a>, voice acted by me</p>",
         "title": "Animation Critique",
         "embed": "<iframe width=\"560\" height=\"315\" src=\"\/\/www.youtube.com/embed/LgkHdnz2HuM\" frameborder=\"0\" allowfullscreen></iframe>",
+        "category": "Videos"
       },
+           
       {
          "date" : "January 2015",
          "content" : "<p>This was requested by friends.</p>",
@@ -111,6 +213,16 @@
          "category" : "Drawings",
          "image" : "photos/GEDC1388.JPG"
       },
+
+
+      {
+         "date" : "",
+         "content" : "<p>Zen repeated patterns</p>",
+         "title" : "Zentangles",
+         "category" : "Art Projects"
+      },
+
+
       {
          "date" : "November 2014",
          "content" : "<p>Sharpie and Pencil crayon</p>",
@@ -274,96 +386,16 @@
          "category" : "Art Projects",
          "image" : "photos/GEDC1353-medium.jpg"
       },
+
+
+
       {
-         "date" : "2014",
-         "content" : "<p>You can use a CD holder to hold bracelets! Just put them over the stick like you would with the CD's.</p>",
-         "title" : "Reused CD holder",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1405.JPG"
+         "date" : "",
+         "content" : "<p>Paintings, Mixed Media canvases, and more.</p>",
+         "title" : "Other",
+         "category" : "Art Projects"
       },
-      {
-         "date" : "January 17, 2015",
-         "content" : "<p>It fits perfectly into a corner!</p>",
-         "title" : "Magazine holder shelf",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1408.JPG"
-      },
-      {
-         "date" : "2014",
-         "content" : "<p>You can turn a travel board game into a jewlery organizer by gluing the pieces onto the board and hanging your stuff on them.</p>",
-         "title" : "Chess Organizer",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1406.JPG"
-      },
-      {
-         "date" : "2014",
-         "content" : "<p>You can sort markers and pens in decorated jars.</p>",
-         "title" : "Jars",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1407.JPG"
-      },
-      {
-         "date" : "January 17, 2015",
-         "content" : "<p>They're fun and easy to make and decorate! If you can't get it to close, you can glue some velcro inside to keep it shut.</p>",
-         "title" : "Paper Wallet",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1409.JPG"
-      },
-      {
-         "date" : "January 2015",
-         "content" : "<p>First paint a regular 8 1/2\" x 11\" sheet of paper with a very basic watercolour design. Then cut into squares and glue it back together again in a different pattern.</p>",
-         "title" : "Water Puzzle",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1398.JPG"
-      },
-      {
-         "date" : "January 2015",
-         "content" : "<p>You can turn an oversized tanktop into a hand bag with one step! Turn it inside out and sew the bottom closed. When you turn it back it will be a bag! Then all you need to do (if you want) is decorate it!</p>",
-         "title" : "Handbag",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1404.JPG"
-      },
-      {
-         "date" : " December 25, 2014",
-         "content" : "<p>Made With:</p>",
-         "title" : "Tin foil Owl",
-         "category" : "Art Projects",
-         "list" : [
-            "Cardboard",
-            "Glue (to make the outlines 3D)",
-            "Tin foil",
-            "Coloured Sharpies"
-         ],
-         "image" : "photos/GEDC1343-medium.jpg"
-      },
-      {
-         "date" : "October 2014",
-         "content" : "<p>Painting with quote</p>",
-         "title" : "Art Quote",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1345-medium.jpg"
-      },
-      {
-         "date" : "December 26, 2014",
-         "content" : "<p>Made With:</p>",
-         "title" : "Mixed media Art",
-         "category" : "Art Projects",
-         "list" : [
-            "Patterned Paper",
-            "Buttons",
-            "Wooden Beads",
-            "Ribbon",
-            "Acrylic paint"
-         ],
-         "image" : "photos/GEDC1344-medium.jpg"
-      },
-      {
-         "date" : "November 2014",
-         "content" : "<p>Hot glue crayons to the top, and melt them with a hair drier.</p>",
-         "title" : "Melted Crayon Art",
-         "category" : "Art Projects",
-         "image" : "photos/GEDC1346-medium.jpg"
-      },
+
       {
          "date" : "November 2014",
          "content" : "<p>Reused Canvas</p>",
