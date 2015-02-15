@@ -40,10 +40,10 @@ class Sari < Mustache
 		end
 		return posts
 	end
-	def videostuff
+	def Videos
 		posts=[]
 		for post in @content["posts"]
-			if post["category"]=="videostuff"
+			if post["category"]=="Videos"
 				posts.push(post)
 			end
 		end
