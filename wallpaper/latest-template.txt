@@ -1,2 +1,2 @@
 {{{number}}}
-{{{url}}}
+wallpaper/{{{url}}}
