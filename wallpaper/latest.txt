@@ -1,2 +1,2 @@
-4
-wallpaper/Wallpaper-mirror.jpg
+5
+wallpaper/goat.png
