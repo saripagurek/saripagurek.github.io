@@ -24,5 +24,6 @@
     },
 
 ```
-2. Double-click on `build.rb`. If there’s an error, double-check that everything is formatted correctly.
-3. Commit and sync
+3. Double-click on `build.rb`. If there’s an error, double-check that everything is formatted correctly.
+4. Open up `index.html` or any other HTML file in your browser to see how things look. If you make changes to `content.rb`, you need to run `build.rb` again and reload the page in the browser.
+5. Commit and sync
