@@ -3,13 +3,14 @@ require "json"
 require "pathname"
 require "htmlentities"
 
-contentfile=File.open("content.json", "r")
+contentfile=File.open("content.rb", "r")
 contenttext=""
 while line=contentfile.gets
     contenttext+=line
 end
 contentfile.close
-content=JSON.parse(contenttext)
+content=eval(contenttext)
+
 
 class Sari < Mustache
 	def initialize (content)
@@ -96,3 +97,4 @@ indexStuff.puts sari.render(templatetext, content)
 indexStuff.close
 
 puts "done"
+wait = gets
