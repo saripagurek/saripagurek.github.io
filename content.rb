@@ -1,7 +1,56 @@
 {
   "posts" => [
     {
-      "date" => "2014",
+      "date" => "April 2015",
+      "title" => "Pathway (Copy of Leonid Alfremov)",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125055550.jpg",
+      "content" =>%q{<p>My first painting with a palette knife. </p>}
+    },
+    {
+      "date" => "May 2015",
+      "title" => "Marbled Polymer Clay Bowls",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125239906.jpg",
+      "content" =>%q{<p>Marbled bowls made out of polymer clay. </p>}
+    },
+    {
+      "date" => "Friday 5th, 2015",
+      "title" => "Tree",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125123009.jpg",
+      "content" =>%q{<p>A painting of a tree that I made for a school auction. It sold for $48! </p>}
+    },
+    {
+      "date" => "May 2015",
+      "title" => "Wall of Quotes",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125343943.jpg",
+      "content" =>%q{<p>Put your favourite quotes on patterned scrapbook paper. Fit the shapes together like a puzzle, and tape them to your wall.  </p>}
+    },
+    {
+      "date" => "May 2015",
+      "title" => "Bubble Hydrangeas",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125351675.jpg",
+      "content" =>%q{<p> You can mix dish soap, paint, and water to make a container of bubbles! Then you press the canvas ontop of the pile and you will get a bubble print on your canvas. Then you can use leaves and markers to make them look more like flowers. </p>}
+    },
+    {
+      "date" => "May 10th 2015",
+      "title" => "Heart String Art",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125622633.jpg",
+      "content" =>%q{<p> I made this string art for my mom on Mother's Day. Paint a peice of wood and hammer in nails in a shape or pattern you like. Then, you just choose one or more colours of thread and weave it around the nails. </p>}
+    },
+    {
+      "date" => "May 10th 2015",
+      "title" => "Orange Blumen Painting",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20150613_125636977.jpg",
+      "content" =>%q{<p> This is a painting of an orange blumen that I made for my mom for Mother's Day. </p>}
+    },
+    {
+      "date" => "2015",
       "title" => "3D Bubble Words",
       "category" => "Art Projects",
       "image" => "photos/GEDC1478.JPG",
@@ -10,7 +59,7 @@
       }
     },
     {
-      "date" => "2014",
+      "date" => "2015",
       "title" => "Oreo Earbud holder",
       "category" => "Art Projects",
       "image" => "photos/GEDC1479.JPG",
@@ -19,7 +68,7 @@
       }
     },
     {
-      "date" => "2014",
+      "date" => "2015",
       "title" => "Tie Dye Canvas",
       "category" => "Art Projects",
       "image" => "photos/GEDC1480.JPG",
