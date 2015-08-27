@@ -4,6 +4,7 @@
       "date" => "April 2015",
       "title" => "Pathway (Copy of Leonid Alfremov)",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image"=> "photos/IMG_20150613_125055550.jpg",
       "content" =>%q{<p>My first painting with a palette knife. </p>}
     },
@@ -12,6 +13,7 @@
       "title" => "Marbled Polymer Clay Bowls",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20150613_125239906.jpg",
+      "topic" => "Other",
       "content" =>%q{<p>Marbled bowls made out of polymer clay. </p>}
     },
     {
@@ -19,6 +21,7 @@
       "title" => "Tree",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20150613_125123009.jpg",
+      "topic" => "Other",
       "content" =>%q{<p>A painting of a tree that I made for a school auction. It sold for $48! </p>}
     },
     {
@@ -26,6 +29,7 @@
       "title" => "Wall of Quotes",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20150613_125343943.jpg",
+      "topic" => "Other",
       "content" =>%q{<p>Put your favourite quotes on patterned scrapbook paper. Fit the shapes together like a puzzle, and tape them to your wall.  </p>}
     },
     {
@@ -33,6 +37,7 @@
       "title" => "Bubble Hydrangeas",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20150613_125351675.jpg",
+      "topic" => "Other",
       "content" =>%q{<p> You can mix dish soap, paint, and water to make a container of bubbles! Then you press the canvas ontop of the pile and you will get a bubble print on your canvas. Then you can use leaves and markers to make them look more like flowers. </p>}
     },
     {
@@ -40,6 +45,7 @@
       "title" => "Heart String Art",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20150613_125622633.jpg",
+      "topic" => "Other",
       "content" =>%q{<p> I made this string art for my mom on Mother's Day. Paint a peice of wood and hammer in nails in a shape or pattern you like. Then, you just choose one or more colours of thread and weave it around the nails. </p>}
     },
     {
@@ -47,6 +53,7 @@
       "title" => "Orange Blumen Painting",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20150613_125636977.jpg",
+      "topic" => "Other",
       "content" =>%q{<p> This is a painting of an orange blumen that I made for my mom for Mother's Day. </p>}
     },
     {
@@ -54,6 +61,7 @@
       "title" => "3D Bubble Words",
       "category" => "Art Projects",
       "image" => "photos/GEDC1478.JPG",
+      "topic" => "Other",
       "content" => %q{
         <p>You can make 3D bubbles with any word in them by simply making a ball of hot glue over any word ina newspaper. When it's dry, you just cut it out and you have a clear bubble with a word at the bottom. You can also make the bubble over a picture or a character from a comic strip from the newspaper.</p>
       }
@@ -63,6 +71,7 @@
       "title" => "Oreo Earbud holder",
       "category" => "Art Projects",
       "image" => "photos/GEDC1479.JPG",
+      "topic" => "Other",
       "content" => %q{
         <p>You can make a cookie shaped earbud holder with perler beads. To see how to make this craft, go to this link: https://www.youtube.com/watch?v=j6I7f2TBp1w </p>
       }
@@ -72,6 +81,7 @@
       "title" => "Tie Dye Canvas",
       "category" => "Art Projects",
       "image" => "photos/GEDC1480.JPG",
+      "topic" => "Other",
       "content" => %q{
         <p>To make this colourful and abstract painting, you will need:</p>
         <ul>
@@ -96,6 +106,7 @@
       "date" => "2014",
       "content" => "<p>You can use a CD holder to hold bracelets! Just put them over the stick like you would with the CD's.</p>",
       "title" => "Reused CD holder",
+      "topic" => "Other",
       "category" => "Art Projects",
       "image" => "photos/GEDC1405.JPG"
     },
@@ -104,12 +115,14 @@
       "content" => "<p>It fits perfectly into a corner!</p>",
       "title" => "Magazine holder shelf",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1408.JPG"
     },
     {
       "date" => "2014",
       "content" => "<p>You can turn a travel board game into a jewlery organizer by gluing the pieces onto the board and hanging your stuff on them.</p>",
       "title" => "Chess Organizer",
+      "topic" => "Other",
       "category" => "Art Projects",
       "image" => "photos/GEDC1406.JPG"
     },
@@ -117,6 +130,7 @@
       "date" => "2014",
       "content" => "<p>You can sort markers and pens in decorated jars.</p>",
       "title" => "Jars",
+      "topic" => "Other",
       "category" => "Art Projects",
       "image" => "photos/GEDC1407.JPG"
     },
@@ -125,12 +139,14 @@
       "content" => "<p>They're fun and easy to make and decorate! If you can't get it to close, you can glue some velcro inside to keep it shut.</p>",
       "title" => "Paper Wallet",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1409.JPG"
     },
     {
       "date" => "January 2015",
       "content" => "<p>First paint a regular 8 1/2\" x 11\" sheet of paper with a very basic watercolour design. Then cut into squares and glue it back together again in a different pattern.</p>",
       "title" => "Water Puzzle",
+      "topic" => "Other",
       "category" => "Art Projects",
       "image" => "photos/GEDC1398.JPG"
     },
@@ -139,12 +155,14 @@
       "content" => "<p>You can turn an oversized tanktop into a hand bag with one step! Turn it inside out and sew the bottom closed. When you turn it back it will be a bag! Then all you need to do (if you want) is decorate it!</p>",
       "title" => "Handbag",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1404.JPG"
     },
     {
       "date" => " December 25, 2014",
       "content" => "<p>Made With:</p>",
       "title" => "Tin foil Owl",
+      "topic" => "Other",
       "category" => "Art Projects",
       "list" => [
         "Cardboard",
@@ -159,12 +177,14 @@
       "content" => "<p>Painting with quote</p>",
       "title" => "Art Quote",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1345-medium.jpg"
     },
     {
       "date" => "December 26, 2014",
       "content" => "<p>Made With:</p>",
       "title" => "Mixed media Art",
+      "topic" => "Other",
       "category" => "Art Projects",
       "list" => [
         "Patterned Paper",
@@ -180,6 +200,7 @@
       "content" => "<p>Hot glue crayons to the top, and melt them with a hair drier.</p>",
       "title" => "Melted Crayon Art",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1346-medium.jpg"
     },
 
@@ -299,17 +320,10 @@
 
 
     {
-      "date" => "",
-      "content" => "<p>Zen repeated patterns</p>",
-      "title" => "Zentangles",
-      "category" => "Art Projects"
-    },
-
-
-    {
       "date" => "November 2014",
       "content" => "<p>Sharpie and Pencil crayon</p>",
       "title" => "Coloured Zentangle",
+      "topic" => "Zentangles",
       "category" => "Art Projects",
       "image" => "photos/GEDC1342-medium.jpg"
     },
@@ -318,6 +332,7 @@
       "content" => "<p>Made with:</p>",
       "title" => "Tangled in Circles",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "list" => [
         "Acrylic Paint",
         "Silk dye",
@@ -333,6 +348,7 @@
       "date" => "2014",
       "content" => "<p>This was my second gellyroll design. It's a little bit different then the rest, it has different patterns and the drawing is inside a cloud. </p>",
       "title" => "Deep in thought",
+      "topic" => "Zentangles",
       "category" => "Art Projects",
       "image" => "photos/GEDC1367.JPG"
     },
@@ -341,6 +357,7 @@
       "content" => "<p>This was my next drawing. With this drawing I did a bit of an experiment. I wanted to try something like a sky line, but I also wanted to tie it into a gellyroll design.  After I drew the buildings I filled them in with patterns. I then coloured the background purple to keep it dark, but not so dark that I couldn't see the buildings. </p>",
       "title" => "City at night",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1368.JPG"
     },
     {
@@ -348,6 +365,7 @@
       "content" => "<p></p>",
       "title" => "Gellyroll #1",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1369.JPG"
     },
     {
@@ -361,6 +379,7 @@
       "date" => "2014",
       "content" => "<p>I drew this gellyroll design right before my school play. It was called the MDC show, and it was about 7 punks. </p>",
       "title" => "MDC Show- PUNKS",
+      "topic" => "Zentangles",
       "category" => "Art Projects",
       "image" => "photos/GEDC1371.JPG"
     },
@@ -369,6 +388,7 @@
       "content" => "<p>This was my first design with colour. </p>",
       "title" => "Chaos in colour",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1372.JPG"
     },
     {
@@ -376,6 +396,7 @@
       "content" => "<p>In this drawing I was trying some graffiti type lettering. I wrote an S (the first letter of my name). </p>",
       "title" => "Gellyroll #3 - \"The Big S\"",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1373.JPG"
     },
     {
@@ -383,12 +404,14 @@
       "content" => "<p>In this drawing I was trying out a design I saw online. I drew a long curvy line, then drew ovalish shapes coming off the line. It made a feather kind of look.</p>",
       "title" => "Gellyroll #4 - \"25 feathers\"",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1374.JPG"
     },
     {
       "date" => " 2014",
       "content" => "<p>I was seeing zentangle animals a lot, so I decided I would try it. </p>",
       "title" => "Blue Bird",
+      "topic" => "Zentangles",
       "category" => "Art Projects",
       "image" => "photos/GEDC1375.JPG"
     },
@@ -397,6 +420,7 @@
       "content" => "<p>This one is a zentangle. To make a zentangle you draw four or five dots in the corners or along the sides of your paper. You then connect them, and draw what's called a string. The string is a line that starts in one corner and devides the rectangle into about 5 sections (but you can have as many as you want). In each section you draw a different pattern. </p>",
       "title" => "Humpty Dumpty",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1376.JPG"
     },
     {
@@ -404,6 +428,7 @@
       "content" => "<p>This is neither a gellyroll design or a zentangle. It is just a drawing I made of a little fairy world. </p>",
       "title" => "Tip Toe around the mushrooms",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1377.JPG"
     },
     {
@@ -411,6 +436,7 @@
       "content" => "<p>This is sort of like a zentangle. I drew a circle, then drew a string. </p>",
       "title" => "Sprouting",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1378.JPG"
     },
     {
@@ -418,6 +444,7 @@
       "content" => "<p>Another gellyroll design. </p>",
       "title" => "Comfy Cozy",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1379.JPG"
     },
     {
@@ -425,6 +452,7 @@
       "content" => "<p>This one looks like it's growing up. </p>",
       "title" => "Growing Tall",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1380.JPG"
     },
     {
@@ -432,6 +460,7 @@
       "content" => "<p>Another gellyroll design. </p>",
       "title" => "Gellyroll #4",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1381.JPG"
     },
     {
@@ -439,6 +468,7 @@
       "content" => "<p>This is a zentangle tile. It's a small paper (aprox. 2\" x 3\"). </p>",
       "title" => "Drawing in purple",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1382.JPG"
     },
     {
@@ -446,13 +476,15 @@
       "content" => "<p>This is a bigger zentangle with 10 sections, and 10 patterns.</p>",
       "title" => "10 tangles",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1384.JPG"
     },
     {
       "date" => "2014",
       "content" => "<p>Here is another gellyroll design with that feathery design. </p>",
-      "title" => "Gellyroll #5</h2>\n                    <h2>\"36 Feathers\"",
+      "title" => "36 Feathers",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1385.JPG"
     },
     {
@@ -460,30 +492,25 @@
       "content" => "<p>By Debbie Pagurek </p>",
       "title" => "Sari",
       "category" => "Art Projects",
+      "topic" => "Zentangles",
       "image" => "photos/GEDC1386.JPG"
     },
     {
       "date" => "November 2014",
       "content" => "<p>I drew the zentangle flower in the bottom left corner, then with a white crayon, drew in the other tangles along the sides. Then I painted a light wash of water colour over top to let the crayon show through. </p>",
       "title" => "Zentangles in Water colour",
+      "topic" => "Zentangles",
       "category" => "Art Projects",
       "image" => "photos/GEDC1353-medium.jpg"
     },
 
-
-
-    {
-      "date" => "",
-      "content" => "<p>Paintings, Mixed Media canvases, and more.</p>",
-      "title" => "Other",
-      "category" => "Art Projects"
-    },
 
     {
       "date" => "November 2014",
       "content" => "<p>Reused Canvas</p>",
       "title" => "Mixed Media Art",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1347-medium.jpg"
     },
     {
@@ -491,6 +518,7 @@
       "content" => "<p>Made with:</p>",
       "title" => "Mixed Media",
       "category" => "Art Projects",
+      "topic" => "Other",
       "list" => [
         "Acrylic paint",
         "Water colour paper",
@@ -506,6 +534,7 @@
       "content" => "<p>Acrylic paint on canvas</p>",
       "title" => "Gradient",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1348-medium.jpg"
     },
     {
@@ -513,6 +542,7 @@
       "content" => "<p>Polka dot tree.</p>",
       "title" => "Fall Tree",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1395.JPG"
     },
     {
@@ -520,6 +550,7 @@
       "content" => "<p>Finger Painting.</p>",
       "title" => "Fall leaves",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1394.JPG"
     },
     {
@@ -527,6 +558,7 @@
       "content" => "<p>Acrylic paint on plain white paper.</p>",
       "title" => "Q-tip tree",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1391.JPG"
     },
     {
@@ -534,6 +566,7 @@
       "content" => "<p>Acrylic paint on heavy paper</p>",
       "title" => "Owl",
       "category" => "Art Projects",
+      "topic" => "Other",
       "image" => "photos/GEDC1389.JPG"
     }
   ],

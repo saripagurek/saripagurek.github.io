@@ -17,39 +17,30 @@ class Sari < Mustache
 		@content=content
 	end
 
-	def ArtProjects
-		posts=[]
-		for post in @content["posts"]
-			if post["category"]=="Art Projects"
-				if post["title"] == "Zentangles"
-					post["a"] = "zentangle"
-				end
-				if post['title']=="Other"
-					post["a"]="Other"
-				end
-				posts.push(post)
-			end
-		end
-		return posts
-	end
+  def Other
+    @content["posts"].select do |post|
+      post["category"]=="Art Projects" and post["topic"]=="Other"
+    end
+  end
+
+  def Zentangles
+    @content["posts"].select do |post|
+      post["category"]=="Art Projects" and post["topic"]=="Zentangles"
+    end
+  end
+
 	def Drawings
-		posts=[]
-		for post in @content["posts"]
-			if post["category"]=="Drawings"
-				posts.push(post)
-			end
-		end
-		return posts
+    @content["posts"].select do |post|
+      post["category"]=="Drawings"
+    end
 	end
+
 	def Videos
-		posts=[]
-		for post in @content["posts"]
-			if post["category"]=="Videos"
-				posts.push(post)
-			end
-		end
-		return posts
+    @content["posts"].select do |post|
+      post["category"]=="Videos"
+    end
 	end
+
 	def NewPosts
 		return @content["posts"][0..10]
 	end
