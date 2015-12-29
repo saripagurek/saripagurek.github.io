@@ -1,13 +1,21 @@
 {
   "posts" => [
     
-    {
+   {
       "date" => "November 2015",
       "title" => "Scales",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20151122_083631146_HDR.jpg",
       "topic" => "Other",
       "content" =>%q{<p> Colourful Abstract Painting </p>}
+    },
+    {
+      "date" => "Aughust 2015",
+      "title" => "Wolfe Lake",
+      "category" => "Art Projects",
+      "image"=> "photos/IMG_20151122_083734158_HDR.jpg",
+      "topic" => "Other",
+      "content" =>%q{<p> Painting of the reflections on Wolfe Lake </p>}
     },
     {
       "date" => "April 2015",
