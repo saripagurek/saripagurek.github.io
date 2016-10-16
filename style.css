@@ -15,7 +15,7 @@ body {
 /* The # means id, so #main refers to divs in the HTML with id="main" */
 #main {
 	width: 1000px;
-	
+
 	/* Setting the left and right margins both to auto makes the item centered */
 	margin-left: auto;
 	margin-right: auto;
@@ -32,7 +32,7 @@ h1 {
 	font-weight: lighter;
 	font-size: 70px;
 	color: #FFF;
-	
+
 	margin:0;
 	line-height:150px;
 	display: inline-block;
@@ -64,7 +64,8 @@ h4 {
 
 #previews {
 	border-bottom: 1px solid #FFF;
-	margin-bottom:20px;
+	padding-bottom:20px;
+	margin-bottom: 20px;
 	text-align:center;
 }
 
@@ -72,26 +73,26 @@ h4 {
 .preview {
 	display:inline-block;
 	width:264px;
-	height:400px;
+	height:auto;
 	margin-right: 30px;
     vertical-align:top;
 }
 
 .preview .circle {
-	width: 100px;
-	height:100px;
+	width: 80px;
+	height:20px;
 	padding:80px;
-	border-radius:50%;
+	border-radius:15px;
 	text-align:center;
 	background-color:rgba(242, 176, 176, 0.56);
     background-size:cover;
     background-position:center;
 	color: #FFF;
 	font-size: 20px;
-	
+
 	border: 2px solid rgba(255, 255, 255, 0);
 	transition: all linear 0.2s;
-	
+
 	text-decoration:none;
 	display:block;
 }
@@ -100,16 +101,7 @@ h4 {
 	border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.preview .date {
-	width:150px;
-	line-height:40px;
-	background-color:#FFF;
-	color:#AAA;
-	border-radius:10px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-}
+
 
 #posts {
 	margin-bottom: 20px;
