@@ -1,6 +1,7 @@
 {
   "posts" => [
-    
+
+
    {
       "date" => "November 2015",
       "title" => "Scales",
@@ -10,7 +11,7 @@
       "content" =>%q{<p> Colourful Abstract Painting </p>}
     },
     {
-      "date" => "Aughust 2015",
+      "date" => "August 2015",
       "title" => "Wolfe Lake",
       "category" => "Art Projects",
       "image"=> "photos/IMG_20151122_083734158_HDR.jpg",
@@ -221,13 +222,7 @@
       "image" => "photos/GEDC1346-medium.jpg"
     },
 
-    {
-      "date" => "March 2012",
-      "content" => "<p>Animated video by <a href=http://davepagurek.com>David Pagurek</a>, voice acted by me</p>",
-      "title" => "Animation Critique",
-      "embed" => "<iframe width=\"560\" height=\"315\" src=\"\/\/www.youtube.com/embed/LgkHdnz2HuM\" frameborder=\"0\" allowfullscreen></iframe>",
-      "category" => "Videos"
-    },
+
 
     {
       "date" => "January 2015",
