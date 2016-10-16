@@ -38,42 +38,24 @@
 			<div id="header">
 
 				<!-- The h1 tag is used for the first heading of the page (the title) -->
-				<h1>Jewelry Sales</h1>
+				<h1>Individuals</h1>
 
 
 				<!-- This is the picture that goes next to the title -->
 				<a class="home" href="index.html"> HOME </a>
 
-	<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
-
 			</div>
-
-
-
-
-
 
 
 
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 
+				<h5>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h5>
 
-				<h6>Shop by
-					Collection:<h6>
 
 			</div>
-			<div id="previews">
 
-				<!-- Each circle preview you add should be in this format. You can copy and paste these -->
-				<div class="preview">
-					<a class="collection" style="background-image:url(newpictures/buttoncollection.jpeg)" href="Button Collection"><font-weight: bolder><font color="black">Button Collection</a>
-
-				</div>
-				<div class="preview">
-					<a class="collection" style="background-image:url(newpictures/indivduals.jpg)" href="Individuals"><font-weight: bolder><font color="black">Individuals</a>
-
-				</div>
 		</div>
 
 	</body>
