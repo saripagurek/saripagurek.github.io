@@ -50,12 +50,12 @@
 
 				<!-- Each circle preview you add should be in this format. You can copy and paste these -->
 				<div class="preview">
-					<a class="circle" style="background-image:url(photos/GEDC1342-medium.jpg)" href="#zentangle">Zentangles</a>
+					<a class="circle" style="background-image:url(photos/GEDC1342-medium.jpg)" href="#zentangles">Zentangles</a>
 
 				</div>
 
 				<div class="preview">
-					<a class="circle" style="background-image:url(photos/GEDC1343-medium.jpg);" href="#Other">Other</a>
+					<a class="circle" style="background-image:url(photos/GEDC1343-medium.jpg);" href="#other">Other</a>
 
 				</div>
 
@@ -69,7 +69,12 @@
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 
-                {{#ArtProjects}}
+				<div id="zentangles" class="post">
+				<h4>Zentangles</h4>
+				Zen repeated patterns.
+				</div>
+
+                {{#Zentangles}}
                 <div class="post">
                 	{{#a}}
                 	<a name="{{a}}"></a>
@@ -89,7 +94,33 @@
 					</ul>
 				</div>
 
-				{{/ArtProjects}}
+				{{/Zentangles}}
+
+<div id="other" class="post">
+<h4>Other</h4>
+Paintings, Mixed Media and Craft projects.
+</div>
+
+				{{#Other}}
+				<div class="post">
+					{{#a}}
+					<a name="{{a}}"></a>
+					{{/a}}
+
+	<h2>{{title}}</h2>
+						<h3>{{date}}</h3>
+						{{#image}}
+							<img src="{{image}}">
+						{{/image}}
+	{{{content}}}
+	<ul>
+	{{#list}}
+							<li>{{.}}</li>
+	{{/list}}
+	</ul>
+</div>
+
+{{/Other}}
 
 			</div>
 		</div>

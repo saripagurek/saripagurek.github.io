@@ -3,19 +3,17 @@
 
     {
        "title" => "Button Earrings- Lime Green",
-       "category" => "Jewelry Sales",
-       "image"=> "newpictures/IMG_20161016_153830269.jpg",
-       "topic" => "Button Collection",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153830269.jpg",
        "content" =>%q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, deep purple, royal blue.</p>}
+         green, yellow, hot pink, light pink, and deep purple.</p>}
      },
     {
        "title" => "Button Earrings- Turqoise",
-       "category" => "Jewelry Sales",
-       "image"=> "newpictures/IMG_20161016_153818058.jpg",
-       "topic" => "Button Collection",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153818058.jpg",
        "content" =>%q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, deep purple, royal blue.</p>}
+         green, yellow, hot pink, light pink, and deep purple.</p>}
      },
    {
       "date" => "November 2015",

@@ -45,19 +45,26 @@
 				<!-- This is the picture that goes next to the title -->
 				<a class="home" href="index.html"> HOME </a>
 
+				<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
+
 			</div>
 
-<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
+			<div class="preview">
+				<a class="collection" style="background-image:url(newpictures/IMG_20161016_153830269.jpg)" href="Button Collection.html">Button Collection</a>
+
+			</div>
 
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 
-			
+
                 {{#JewelrySales}}
                 <div class="post">
 					<h2>{{title}}</h2>
                     <h3>{{date}}</h3>
-                    {{{embed}}}
+										{{#image}}
+											<img src="{{image}}">
+										{{/image}}
 					{{{content}}}
 					<ul>
 					{{#list}}

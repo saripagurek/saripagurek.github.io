@@ -17,6 +17,12 @@ class Sari < Mustache
 		@content=content
 	end
 
+  def ButtonCollection
+    @content["posts"].select do |post|
+      post["category"]=="Button Collection"
+    end
+  end
+
   def Other
     @content["posts"].select do |post|
       post["category"]=="Art Projects" and post["topic"]=="Other"
@@ -67,12 +73,22 @@ artprojects.close
 templatefile=File.open("templates/Drawings.html", "r")
 templatetext=""
 while line=templatefile.gets
-    templatetext+=line
+  templatetext+=line
 end
 templatefile.close
 drawingsstuff=File.open("Drawings.html", "w")
 drawingsstuff.puts sari.render(templatetext, content)
 drawingsstuff.close
+
+templatefile=File.open("templates/Button Collection.html", "r")
+templatetext=""
+while line=templatefile.gets
+    templatetext+=line
+end
+templatefile.close
+videoStuff=File.open("Button Collection.html", "w")
+videoStuff.puts sari.render(templatetext, content)
+videoStuff.close
 
 templatefile=File.open("templates/Jewelry Sales.html", "r")
 templatetext=""
