@@ -60,55 +60,17 @@ class Sari < Mustache
 end
 sari=Sari.new(content)
 
-templatefile=File.open("templates/Art Projects.html", "r")
-templatetext=""
-while line=templatefile.gets
-    templatetext+=line
+["Art Projects", "Drawings","index", "Jewelry Sales", "Button Collection"].each do |page|
+  templatefile=File.open("templates/#{page}.html", "r")
+  templatetext=""
+  while line=templatefile.gets
+      templatetext+=line
+  end
+  templatefile.close
+  artprojects=File.open("#{page}.html", "w")
+  artprojects.puts sari.render(templatetext, content)
+  artprojects.close
 end
-templatefile.close
-artprojects=File.open("Art Projects.html", "w")
-artprojects.puts sari.render(templatetext, content)
-artprojects.close
 
-templatefile=File.open("templates/Drawings.html", "r")
-templatetext=""
-while line=templatefile.gets
-  templatetext+=line
-end
-templatefile.close
-drawingsstuff=File.open("Drawings.html", "w")
-drawingsstuff.puts sari.render(templatetext, content)
-drawingsstuff.close
-
-templatefile=File.open("templates/Button Collection.html", "r")
-templatetext=""
-while line=templatefile.gets
-    templatetext+=line
-end
-templatefile.close
-videoStuff=File.open("Button Collection.html", "w")
-videoStuff.puts sari.render(templatetext, content)
-videoStuff.close
-
-templatefile=File.open("templates/Jewelry Sales.html", "r")
-templatetext=""
-while line=templatefile.gets
-    templatetext+=line
-end
-templatefile.close
-videoStuff=File.open("Jewelry Sales.html", "w")
-videoStuff.puts sari.render(templatetext, content)
-videoStuff.close
-
-templatefile=File.open("templates/index.html", "r")
-templatetext=""
-while line=templatefile.gets
-    templatetext+=line
-end
-templatefile.close
-indexStuff=File.open("index.html", "w")
-indexStuff.puts sari.render(templatetext, content)
-indexStuff.close
 
 puts "done"
-wait = gets
