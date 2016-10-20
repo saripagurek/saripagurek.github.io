@@ -4,7 +4,7 @@
 
 		<!-- The <title> is the text you see in the tab in your web browser. -->
 		<title>
-			Sari Pagurek
+			{{title}}
 		</title>
 
 		<!--
@@ -38,60 +38,45 @@
 			<div id="header">
 
 				<!-- The h1 tag is used for the first heading of the page (the title) -->
-				<h1>Sari Pagurek</h1>
+				<h1>Button Collection</h1>
 
 				<!-- This is the picture that goes next to the title -->
-				<img id="me" src="me.png" />
+				<a class="home" href="index.html"> HOME </a>
+
+	<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
 
 			</div>
 
 			<!-- The div id="previews" is where the smaller circle post previews go -->
-			<div id="previews">
 
-				<!-- Each circle preview you add should be in this format. You can copy and paste these -->
-				<div class="preview">
-					<a class="circle" style="background-image:url(newpictures/art2.jpg)" href="Art projects.html">Art Projects</a>
 
-				</div>
-
-				<div class="preview">
-					<a class="circle" style="background-image:url(newpictures/beads.jpg);" href="Jewelry Sales.html">Jewelry Sales</a>
-
-				</div>
-
-				<div class="preview">
-					<a class="circle" style="background-image:url(newpictures/drawing.jpg)" href="Drawings.html">Drawings</a>
-
-				</div>
-
-			</div>
 
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
-				<h4>About:</h4>
-				<div class="post">
-					<h2>Hi! I'm Sari Pagurek.
-					 I paint, draw, and make handmade jewelry.
-					To keep up to date with my work, follow my instagram <a href="https://www.instagram.com/sari.jewelry/">@sari.jewelry</a> and my pinterest <a href="https://www.pinterest.com/pagurek/">@Sari Pagurek</a>.
-					To contact me with questions, concerns, or a purchase, email saripagurek.jewelry@gmail.com <h2>
-				</div>
-				<h4>Recent:</h4>
 
+                {{#ButtonCollection}}
                 <div class="post">
-					<h2>New Button Collection!</h2>
-                    <h3></h3>
-                    
-                    	<img src="newpictures/IMG_20161018_152954-01.jpeg">
-					<p>The newest Fall collection is now out!
-         Get the classic single button earring and double button drop earrings!
-         All perfectly in style for this fall!</p>
+                	{{#a}}
+                	<a name="{{a}}"></a>
+                	{{/a}}
+
+
+					<h2>{{title}}</h2>
+                    <h3>{{date}}</h3>
+                    {{#image}}
+                    	<img src="{{image}}">
+                    {{/image}}
+					{{{content}}}
 					<ul>
+					{{#list}}
+	                    <li>{{.}}</li>
+					{{/list}}
 					</ul>
 				</div>
 
+				{{/ButtonCollection}}
 
 			</div>
-
 		</div>
 
 	</body>

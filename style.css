@@ -100,7 +100,12 @@ h7 {
 	height:auto;
 	margin-right: 30px;
     vertical-align:top;
+	}
+
+		.preview.spaced {
+			margin-bottom: 20px;
 }
+
 .preview .collection {
 	width: 180px;
 	height:75px;

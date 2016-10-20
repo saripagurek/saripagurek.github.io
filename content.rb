@@ -2,19 +2,102 @@
   "posts" => [
 
     {
-       "title" => "Button Earrings- Lime Green",
+       "title" => "New Button Collection!",
+       "category" => "Jewelry Sales",
+       "recent" => "true",
+       "image" => "newpictures/IMG_20161018_152954-01.jpeg",
+       "content" => %q{<p>The newest Fall collection is now out!
+         Get the classic single button earring and double button drop earrings!
+         All perfectly in style for this fall!</p>}
+     },
+    {
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Purple",
        "category" => "Button Collection",
-       "image" => "newpictures/IMG_20161016_153830269.jpg",
-       "content" =>%q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+       "image" => "newpictures/IMG_20161016_153801348.jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
          green, yellow, hot pink, light pink, and deep purple.</p>}
      },
     {
-       "title" => "Button Earrings- Turqoise",
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Yellow",
        "category" => "Button Collection",
-       "image" => "newpictures/IMG_20161016_153818058.jpg",
-       "content" =>%q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+       "image" => "newpictures/IMG_20161016_153926268 (1).jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
          green, yellow, hot pink, light pink, and deep purple.</p>}
      },
+    {
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Green",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153853439.jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+         green, yellow, hot pink, light pink, and deep purple.</p>}
+     },
+    {
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Red",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153840596.jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+         green, yellow, hot pink, light pink, and deep purple.</p>}
+     },
+    {
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Light Pink",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153509721.jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+         green, yellow, hot pink, light pink, and deep purple.</p>}
+     },
+     {
+       "date" => "$10",
+        "title" => "Clasic Button Earrings- Hot Pink",
+        "category" => "Button Collection",
+        "image" => "newpictures/IMG_20161016_153401043.jpg",
+        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+          green, yellow, hot pink, light pink, and deep purple.</p>}
+      },
+    {
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Lime Green",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153830269.jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+         green, yellow, hot pink, light pink, and deep purple.</p>}
+     },
+    {
+      "date" => "$10",
+       "title" => "Clasic Button Earrings- Turqoise",
+       "category" => "Button Collection",
+       "image" => "newpictures/IMG_20161016_153818058.jpg",
+       "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+         green, yellow, hot pink, light pink, and deep purple.</p>}
+     },
+     {
+       "date" => "$12.50",
+        "title" => "Double Button Earrings- Pink",
+        "category" => "Button Collection",
+        "image" => "newpictures/IMG_20161016_153907169 (1).jpg",
+        "content" => %q{<p>Double button drop earrings, although this one is a mini size!
+          mini size button for the look of drop earrings, without hanging too low.</p>}
+      },
+      {
+        "date" => "$12.50",
+         "title" => "Double Button Earrings- Maroon",
+         "category" => "Button Collection",
+         "image" => "newpictures/IMG_20161016_153942011 (1).jpg",
+         "content" => %q{<p>Double button drop earrings, to put a fun and cute twist on the classic!
+           Available in maroon and red.</p>}
+       },
+       {
+         "date" => "$12.50",
+          "title" => "Double Button Earrings- Red",
+          "category" => "Button Collection",
+          "image" => "newpictures/IMG_20161016_153234167.jpg",
+          "content" => %q{<p>Double button drop earrings, to put a fun and cute twist on the classic!
+            Available in maroon and red.</p>}
+        },
    {
       "date" => "November 2015",
       "title" => "Scales",
