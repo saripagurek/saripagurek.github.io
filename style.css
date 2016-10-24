@@ -75,6 +75,14 @@ h7 {
 		display:block;
 
 }
+h8 {
+    font-weight: lighter;;
+    font-style: italic;
+		color:white;
+		font-size: 18px;
+		display:block;
+
+}
 
 #me {
 	/* When the radius of the circle for the borders is 50% of the height, it makes it a circle */
@@ -90,7 +98,9 @@ h7 {
 	padding-bottom:20px;
 	margin-bottom: 20px;
 	text-align:center;
-}
+	display:flex;
+	flex-direction:row;
+	}
 
 /* The . means class, so .preview refers to divs in the HTML with class="preview" */
 
@@ -104,6 +114,7 @@ h7 {
 
 		.preview.spaced {
 			margin-bottom: 20px;
+
 }
 
 .preview .collection {
@@ -125,7 +136,7 @@ h7 {
 	display:flex;
 	justify-content:center;
 	align-items: center;
-}
+	}
 
 .preview .circle {
 	width: 220px;

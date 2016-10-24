@@ -4,7 +4,7 @@
 
 		<!-- The <title> is the text you see in the tab in your web browser. -->
 		<title>
-			Sari Pagurek
+			{{title}}
 		</title>
 
 		<!--
@@ -38,50 +38,38 @@
 			<div id="header">
 
 				<!-- The h1 tag is used for the first heading of the page (the title) -->
-				<h1>Jewelry Sales</h1>
-
-
+				<h1>Individuals</h1>
 
 				<!-- This is the picture that goes next to the title -->
 				<a class="home" href="index.html"> HOME </a>
 
-				<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
+	<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
 
-				<h7>Unfortunetly, I can only ship in Canada!</h7>
-
-<h8>Please note that most specific requests can be made! (ex: silver to gold, clip-ons, etc.*)
-*Requests may or may not result in a small fee</h8>
+	<h8>These are the custom jewelry items I have made for customers!
+	To get your own custom or personalized jewelry, email me!
+*There will be a $10 fee on custom jewelry</h8>
 
 			</div>
 
-			<div id="previews">
-
-			 <div class="preview spaced">
-				<a class="collection" style="background-image:url(newpictures/IMG_20161016_153830269.jpg)" href="Button Collection.html">Button Collection</a>
-
-
-		</div>
-
-		 <div class="preview spaced">
-			<a class="collection" style="background-image:url(newpictures/gemsgreen.jpg)" href="Individuals.html">Individuals</a>
-
-		</div>
-
-		</div>
+			<!-- The div id="previews" is where the smaller circle post previews go -->
 
 
 
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 
-
-                {{#JewelrySales}}
+                {{#Individuals}}
                 <div class="post">
+                	{{#a}}
+                	<a name="{{a}}"></a>
+                	{{/a}}
+
+
 					<h2>{{title}}</h2>
                     <h3>{{date}}</h3>
-										{{#image}}
-											<img src="{{image}}">
-										{{/image}}
+                    {{#image}}
+                    	<img src="{{image}}">
+                    {{/image}}
 					{{{content}}}
 					<ul>
 					{{#list}}
@@ -90,11 +78,9 @@
 					</ul>
 				</div>
 
-				{{/JewelrySales}}
-
+				{{/Individuals}}
 
 			</div>
-
 		</div>
 
 	</body>

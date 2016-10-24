@@ -2,6 +2,21 @@
   "posts" => [
 
     {
+      "date" => "$36",
+       "title" => "Blue, Green, and Purple Rock Necklace",
+       "category" => "Individuals",
+       "image" => "newpictures/indivduals.jpg",
+       "content" => %q{<p>This is a gorgeous and 100% unique statement necklace!
+         </p>}
+     },
+     {
+       "date" => "$19",
+        "title" => "Gemstone Pendant",
+        "category" => "Individuals",
+        "image" => "newpictures/gemsgreen.jpg",
+        "content" => %q{<p>This</p>}
+      },
+    {
        "title" => "New Button Collection!",
        "category" => "Jewelry Sales",
        "recent" => "true",
@@ -10,13 +25,21 @@
          Get the classic single button earring and double button drop earrings!
          All perfectly in style for this fall!</p>}
      },
+     {
+       "date" => "$10",
+        "title" => "Heart Button Earrings",
+        "category" => "Button Collection",
+        "image" => "newpictures/IMG_20161016_153326108.jpg",
+        "content" => %q{<p>You won't find these adorable heart shaped, button earrings anywhere else!
+          They're perfect gifts, and for yourself this fall!</p>}
+      },
     {
       "date" => "$10",
        "title" => "Clasic Button Earrings- Purple",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153801348.jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
       "date" => "$10",
@@ -24,15 +47,23 @@
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153926268 (1).jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
+     {
+       "date" => "$10",
+        "title" => "Clasic Button Earrings- Brown",
+        "category" => "Button Collection",
+        "image" => "newpictures/IMG_20161016_153541154.jpg",
+        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
+          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
+      },
     {
       "date" => "$10",
        "title" => "Clasic Button Earrings- Green",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153853439.jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
       "date" => "$10",
@@ -40,7 +71,7 @@
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153840596.jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
       "date" => "$10",
@@ -48,7 +79,7 @@
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153509721.jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
      {
        "date" => "$10",
@@ -56,7 +87,7 @@
         "category" => "Button Collection",
         "image" => "newpictures/IMG_20161016_153401043.jpg",
         "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-          green, yellow, hot pink, light pink, and deep purple.</p>}
+          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
       },
     {
       "date" => "$10",
@@ -64,7 +95,7 @@
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153830269.jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
       "date" => "$10",
@@ -72,7 +103,7 @@
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153818058.jpg",
        "content" => %q{<p>Classic button earrings, available in turqoise, burgundy, lime green, red,
-         green, yellow, hot pink, light pink, and deep purple.</p>}
+         green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
      {
        "date" => "$12.50",

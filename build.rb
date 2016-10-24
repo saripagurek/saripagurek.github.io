@@ -23,6 +23,12 @@ class Sari < Mustache
     end
   end
 
+  def Individuals
+    @content["posts"].select do |post|
+      post["category"]=="Individuals"
+    end
+  end
+
   def Other
     @content["posts"].select do |post|
       post["category"]=="Art Projects" and post["topic"]=="Other"
@@ -60,7 +66,7 @@ class Sari < Mustache
 end
 sari=Sari.new(content)
 
-["Art Projects", "Drawings","index", "Jewelry Sales", "Button Collection"].each do |page|
+["Art Projects", "Drawings","index", "Individuals", "Jewelry Sales", "Button Collection"].each do |page|
   templatefile=File.open("templates/#{page}.html", "r")
   templatetext=""
   while line=templatefile.gets
