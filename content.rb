@@ -14,7 +14,7 @@
         "title" => "Gemstone Pendant",
         "category" => "Individuals",
         "image" => "newpictures/gemsgreen.jpg",
-        "content" => %q{<p>This</p>}
+        "content" => %q{<p>This pretty gemstone pendant comes in mint green, hot pink, and turqoise.</p>}
       },
     {
        "title" => "New Button Collection!",
