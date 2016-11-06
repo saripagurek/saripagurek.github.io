@@ -2,6 +2,22 @@
   "posts" => [
 
     {
+      "date" => "$8",
+       "title" => "Beaded Rings",
+       "category" => "Individuals",
+       "image" => "newpictures/IMG_20161106_135859300-01.jpeg",
+       "content" => %q{<p>Unique beaded rings available in turqoise, royal blue, purple, coral, metallic, black, silver, and white. Choose triple, double or a single wraped ring!
+         </p>}
+     },
+    {
+      "date" => "$8",
+       "title" => "New Beaded Rings!",
+       "recent" => "true",
+       "image" => "newpictures/IMG_20161023_181809.jpg",
+       "content" => %q{<p>Unique beaded rings available in an assortment of colours, and sizes!
+         </p>}
+     },
+    {
       "date" => "$36",
        "title" => "Blue, Green, and Purple Rock Necklace",
        "category" => "Individuals",
