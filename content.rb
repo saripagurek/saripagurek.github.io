@@ -2,7 +2,46 @@
   "posts" => [
 
     {
-      "date" => "$8",
+       "title" => "COMING SOON!",
+       "recent" => "true",
+       "image" => "newpictures/SeaColl.jpg",
+       "content" => %q{<p> Coming soon in April 2017! New Spring, Seaside Collection!
+         Anklets for Sandal Season! Pastel bracelets, and delicate rings for
+         this Spring!
+         </p>}
+     },
+
+    {
+      "date" => "$16.50",
+       "title" => "Beaded Letter Charm",
+       "category" => "LetterCollection",
+       "image" => "newpictures/Charm.jpg",
+       "content" => %q{<p>Pretty beaded chain, with a letter charm of your
+         choice! Use as a bookmark, key chain, bag chain, or whatever you want!
+         </p>}
+     },
+
+    {
+      "date" => "$9.00",
+       "title" => "Letter Earrings",
+       "category" => "LetterCollection",
+       "image" => "newpictures/YEarring.jpg",
+       "content" => %q{<p>Letter Earrings! Whatever letter you want,for example,
+         your initial!
+         </p>}
+     },
+
+    {
+       "title" => "New Letter Collection!",
+       "category" => "Jewelry Sales",
+       "recent" => "true",
+       "image" => "newpictures/WinterColl.jpg",
+       "content" => %q{<p>Check out the Winter Collection! Personalized jewelry with you initials or a custom
+         word! Great gifts for friends, family, and yourself!
+         </p>}
+     },
+    {
+      "date" => "$8.00",
        "title" => "Beaded Rings",
        "category" => "Individuals",
        "image" => "newpictures/IMG_20161106_135859300-01.jpeg",
@@ -10,7 +49,7 @@
          </p>}
      },
     {
-      "date" => "$8",
+      "date" => "$8.00",
        "title" => "New Beaded Rings!",
        "recent" => "true",
        "image" => "newpictures/IMG_20161023_181809.jpg",
@@ -18,7 +57,7 @@
          </p>}
      },
     {
-      "date" => "$36",
+      "date" => "$36.00",
        "title" => "Blue, Green, and Purple Rock Necklace",
        "category" => "Individuals",
        "image" => "newpictures/indivduals.jpg",
@@ -26,7 +65,7 @@
          </p>}
      },
      {
-       "date" => "$19",
+       "date" => "$19.00",
         "title" => "Gemstone Pendant",
         "category" => "Individuals",
         "image" => "newpictures/gemsgreen.jpg",
@@ -42,7 +81,7 @@
          All perfectly in style for this fall!</p>}
      },
      {
-       "date" => "$10",
+       "date" => "$10.00",
         "title" => "Heart Button Earrings",
         "category" => "Button Collection",
         "image" => "newpictures/IMG_20161016_153326108.jpg",
@@ -50,7 +89,7 @@
           They're perfect gifts, and for yourself this fall!</p>}
       },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Purple",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153801348.jpg",
@@ -58,7 +97,7 @@
          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Yellow",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153926268 (1).jpg",
@@ -66,7 +105,7 @@
          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
      {
-       "date" => "$10",
+       "date" => "$10.00",
         "title" => "Clasic Button Earrings- Brown",
         "category" => "Button Collection",
         "image" => "newpictures/IMG_20161016_153541154.jpg",
@@ -74,7 +113,7 @@
           green, yellow, brown, hot pink, light pink, and deep purple.</p>}
       },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Green",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153853439.jpg",
@@ -82,7 +121,7 @@
          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Red",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153840596.jpg",
@@ -90,7 +129,7 @@
          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Light Pink",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153509721.jpg",
@@ -98,7 +137,7 @@
          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
      {
-       "date" => "$10",
+       "date" => "$10.00",
         "title" => "Clasic Button Earrings- Hot Pink",
         "category" => "Button Collection",
         "image" => "newpictures/IMG_20161016_153401043.jpg",
@@ -106,7 +145,7 @@
           green, yellow, brown, hot pink, light pink, and deep purple.</p>}
       },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Lime Green",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153830269.jpg",
@@ -114,7 +153,7 @@
          green, yellow, brown, hot pink, light pink, and deep purple.</p>}
      },
     {
-      "date" => "$10",
+      "date" => "$10.00",
        "title" => "Clasic Button Earrings- Turqoise",
        "category" => "Button Collection",
        "image" => "newpictures/IMG_20161016_153818058.jpg",

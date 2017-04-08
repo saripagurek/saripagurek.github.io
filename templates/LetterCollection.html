@@ -38,69 +38,42 @@
 			<div id="header">
 
 				<!-- The h1 tag is used for the first heading of the page (the title) -->
-				<h1>Jewelry Sales</h1>
-
+				<h1>Jewelry- Letter Collection</h1>
 
 
 				<!-- This is the picture that goes next to the title -->
 				<a class="home" href="index.html"> HOME </a>
 
-				<h7>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h7>
-
-				<h7>Unfortunetly, I can only ship in Canada!</h7>
-
-<h8>Please note that most specific requests can be made! (ex: silver to gold, clip-ons, etc.*)
-*Requests may or may not result in a small fee</h8>
-
 			</div>
-
-			<div id="previews">
-
-
-				<div class="preview spaced">
-				 <a class="collection" style="background-image:url(newpictures/WinterColl.jpg)" href="LetterCollection.html">Letter Collection</a>
-
-
-				</div>
-
-			 <div class="preview spaced">
-				<a class="collection" style="background-image:url(newpictures/IMG_20161016_153830269.jpg)" href="Button Collection.html">Button Collection</a>
-
-
-		</div>
-
-		 <div class="preview spaced">
-			<a class="collection" style="background-image:url(newpictures/gemsgreen.jpg)" href="Individuals.html">Individuals</a>
-
-		</div>
-
-		</div>
 
 
 
 			<!-- The div id="posts" is where the main posts go -->
 			<div id="posts">
 
+				<h5>To purchase, contact me at <a href="mailto:saripagurek.jewelry@gmail.com">saripagurek.jewelry@gmail.com</a></h5>
 
-                {{#JewelrySales}}
-                <div class="post">
-					<h2>{{title}}</h2>
-                    <h3>{{date}}</h3>
-										{{#image}}
-											<img src="{{image}}">
-										{{/image}}
-					{{{content}}}
-					<ul>
-					{{#list}}
-	                    <li>{{.}}</li>
-					{{/list}}
-					</ul>
-				</div>
 
-				{{/JewelrySales}}
+									{{#LetterCollection}}
+									<div class="post">
+						<h2>{{title}}</h2>
+											<h3>{{date}}</h3>
+											{{#image}}
+												<img src="{{image}}">
+											{{/image}}
+						{{{content}}}
+						<ul>
+						{{#list}}
+												<li>{{.}}</li>
+						{{/list}}
+						</ul>
+					</div>
+
+					{{/LetterCollection}}
 
 
 			</div>
+
 
 		</div>
 
