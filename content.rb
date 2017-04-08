@@ -26,7 +26,7 @@
        "title" => "Letter Earrings",
        "category" => "LetterCollection",
        "image" => "newpictures/YEarring.jpg",
-       "content" => %q{<p>Letter Earrings! Whatever letter you want,for example,
+       "content" => %q{<p>Letter Earrings! Whatever letter you want, for example,
          your initial!
          </p>}
      },
