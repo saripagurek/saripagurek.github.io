@@ -1,2 +1,0 @@
-ruby build.rb
-PAUSE
