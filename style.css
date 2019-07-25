@@ -28,6 +28,12 @@ div.gallery a.nolink{
   cursor:default;
 }
 
+nav{
+  display: flex;
+  align-items: baseline;
+  border-bottom: 4px solid black;
+}
+
  div.vertical{
   text-align: center;
   margin: 8px;
@@ -75,19 +81,8 @@ h1{
   position: relative;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 60;
-  text-align: center;
-}
-
-h1::before{
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 50%;
-  border-bottom: 6px solid black;
-  z-index: 1;
+  flex: 1;
+  margin: 0;
 }
 
 h2{
@@ -115,4 +110,8 @@ p{
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   font-size: 20;
+}
+
+nav p{
+  font-weight: bold;
 }
