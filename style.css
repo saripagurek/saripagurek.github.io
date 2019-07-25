@@ -1,5 +1,5 @@
 body {
-  background-color: #F8F4F0;
+  background-color: #faf5f9;
 }
 
 div.gallery {
@@ -61,7 +61,7 @@ div.gallery.small a img{
 h1 a{
   color: black;
   text-decoration: none;
-  background-color: #F8F4F0;
+  background-color: #faf5f9;
   position: relative;
   z-index: 2;
 }
@@ -86,8 +86,10 @@ h1::before{
 }
 
 h2{
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40;
+  font-weight: normal;
+  text-align: center;
 }
 
 h2.title{
@@ -102,4 +104,10 @@ h3{
 video{
   width: 700px;
   height:auto;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 20;
 }
