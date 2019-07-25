@@ -30,6 +30,7 @@ div.gallery a.nolink{
 
  div.vertical{
   text-align: center;
+  margin: 8px;
 }
 
 div.gallery a:hover{
