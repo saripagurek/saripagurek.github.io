@@ -28,6 +28,10 @@ div.gallery a.nolink{
   cursor:default;
 }
 
+ div.vertical{
+  text-align: center;
+}
+
 div.gallery a:hover{
   color: rgba(255,255,255,1);
 }
