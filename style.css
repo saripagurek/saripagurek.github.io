@@ -1,14 +1,21 @@
 body {
-  background-color: #faf5f9;
+  background-color: #191818;
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
 }
 
 div.gallery {
   text-align: center;
+  flex:1;
+  flex-direction: row;
+  margin-right: 200px;
 }
 
 div.big{
   text-align: center;
   margin-bottom: 4px;
+  margin-right: 200px;
 }
 
 div.big img{
@@ -37,6 +44,7 @@ nav{
  div.vertical{
   text-align: center;
   margin: 8px;
+  margin-right: 200px;
 }
 
 div.gallery a:hover{
@@ -61,12 +69,74 @@ div.gallery a:hover h3{
 }
 
 div.gallery a img{
-  height: 400px;
+  height: 350px;
   width: auto;
+
 }
 
 div.gallery.small a img{
   height: 100px;
+}
+
+div.portfolio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+div.portfolio a {
+  display:inline-block;
+  background-color: #1b0406;
+  opacity: 0.75;
+  font-family: 'Mada', sans-serif;
+  color: rgba(203,203,203,1);
+  font-size: 15;
+  padding: 10px 20px;
+  text-decoration: none;
+
+}
+
+div.title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+}
+
+div.menu {
+  align-items:flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex:0;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  margin-right: 5px;
+
+}
+
+div.menu a{
+  font-family: 'Mada', sans-serif;
+  color: rgba(203,203,203,1);
+  font-size: 30;
+  text-decoration: none;
+
+}
+div.menu a.highlight{
+  background-color: #444;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div.menu a.underline{
+  border-bottom: 1px solid rgba(203,203,203,1);
+  margin-bottom: 5px;
 }
 
 h1 a{
@@ -80,8 +150,11 @@ h1 a{
 h1{
 
   position: relative;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 80;
+  font-family: 'Mada', sans-serif;
+  color: rgba(203,203,203,1);
+  text-shadow: 7px 6px rgba(203,203,203,0.5);
+  font-weight: 900;
+  font-size: 100;
   flex: 1;
   margin: 0;
 }
@@ -128,4 +201,22 @@ a.menulink {
 
 div.break{
   margin: 60px;
+}
+
+h4{
+  font-family: 'Mada', sans-serif;
+  color: rgba(203,203,203,1);
+  font-size: 30;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+h5{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14;
+  color: rgba(203,203,203,1);
+  text-align: center;
+  flex:1;
+  flex-direction: column;
+
 }
