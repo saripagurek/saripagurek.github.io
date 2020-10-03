@@ -1,9 +1,9 @@
 body {
-  background-color: #191818;
+  background-color: #B8BCC2;
   background-size: cover;
   background-position: center;
   padding: 15px;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 div.gallery {
@@ -98,15 +98,22 @@ div.portfolio a {
 }
 
 div.title {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  position: absolute;
+  justify-content: flex-start;
+  position: fixed;
   top: 0;
   right: 0;
-  left: 0;
+  width:600px;
   height: 100vh;
+}
+
+div.title h1{
+  text-align: left;
+  padding:15px;
+  border: 6px solid rgba(203,203,203,1);
+  flex:0;
+  margin:15px;
 }
 
 div.menu {
@@ -116,7 +123,7 @@ div.menu {
   justify-content: flex-start;
   flex:0;
   position: fixed;
-  top: 15px;
+  bottom: 15px;
   right: 15px;
   margin-right: 5px;
 
@@ -124,13 +131,13 @@ div.menu {
 
 div.menu a{
   font-family: 'Mada', sans-serif;
-  color: rgba(203,203,203,1);
+  color: rgb(46,46,46);
   font-size: 30;
   text-decoration: none;
 
 }
 div.menu a.highlight{
-  background-color: #444;
+  background-color: rgba(203,203,203,1);
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -152,8 +159,8 @@ h1{
 
   position: relative;
   font-family: 'Mada', sans-serif;
-  color: rgba(203,203,203,1);
-  text-shadow: 7px 6px rgba(203,203,203,0.5);
+  color: rgb(46,46,46);
+  text-shadow: 7px 6px #A9A9A9;
   font-weight: 900;
   font-size: 100;
   flex: 1;
@@ -215,9 +222,41 @@ h4{
 h5{
   font-family: 'Raleway', sans-serif;
   font-size: 14;
-  color: rgba(203,203,203,1);
+  color: rgb(46,46,46);
   text-align: center;
   flex:1;
   flex-direction: column;
 
+}
+
+#sketch{
+  position: fixed;
+  top:0;
+  left:0;
+  width: calc(100vw - 600px);
+  height: 100vh;
+}
+
+@media all and (max-width:800px){
+  body{
+    padding: 0;
+  }
+  #sketch{
+    position: relative;
+    width: 100vw;
+    height: 300px;
+  }
+  div.title{
+    position: relative;
+    width: 100vw;
+    height: auto;
+  }
+  div.title h1{
+    font-size: 50;
+    text-align:center;
+  }
+  div.menu{
+    position: relative;
+    width: 100vw;
+  }
 }
