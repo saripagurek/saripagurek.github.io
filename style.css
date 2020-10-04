@@ -270,8 +270,6 @@ h5{
   div.title h1{
     font-size: 50;
     text-align:center;
-    position: sticky;
-    top: 0;
   }
   div.menu{
     position: sticky;
@@ -281,6 +279,9 @@ h5{
     text-align: center;
     z-index: 9000;
     background-color: #B8BCC2;
+  }
+  div.menu.home{
+    position: initial;
   }
   div.menu a{
     margin: 5px;
