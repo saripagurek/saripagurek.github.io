@@ -1,4 +1,4 @@
-let allbigs = document.querySelectorAll("div.big img");
+let allbigs = document.querySelectorAll("div.big .viewer");
 
 let allgallery = document.querySelectorAll("div.gallery");
 let numgallery = allgallery.length
@@ -11,7 +11,8 @@ for (let i = 0; i < numgallery; i++) {
   thumbnails.forEach((thumbnail) => {
     thumbnail.addEventListener("click", () => {
       let img = thumbnail.querySelector("img");
-      big.src = img.src;
+      big.setAttribute("style", `background-image:url("${img.src}")`)
+      big.scrollIntoView({behavior:'smooth', block:"start", inline:"start"})
     });
   });
 }

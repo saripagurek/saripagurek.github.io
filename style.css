@@ -6,6 +6,15 @@ body {
   min-height: 100vh;
 }
 
+div.viewer{
+  width: 90vw;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
 div.gallery {
   text-align: center;
   flex:1;
@@ -156,7 +165,6 @@ h1 a{
 }
 
 h1{
-
   position: relative;
   font-family: 'Mada', sans-serif;
   color: rgb(46,46,46);
@@ -165,6 +173,11 @@ h1{
   font-size: 100;
   flex: 1;
   margin: 0;
+}
+
+div.menu h1{
+  font-size: 45;
+  display: none;
 }
 
 h2, h2 a {
@@ -207,9 +220,7 @@ a.menulink {
   padding: 20px;
 }
 
-div.break{
-  margin: 60px;
-}
+
 
 h4{
   font-family: 'Mada', sans-serif;
@@ -226,7 +237,6 @@ h5{
   text-align: center;
   flex:1;
   flex-direction: column;
-
 }
 
 #sketch{
@@ -238,13 +248,19 @@ h5{
 }
 
 @media all and (max-width:800px){
-  body{
+  body, html{
     padding: 0;
+    margin: 0;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #sketch{
     position: relative;
     width: 100vw;
-    height: 300px;
+    flex: 1;
   }
   div.title{
     position: relative;
@@ -256,7 +272,56 @@ h5{
     text-align:center;
   }
   div.menu{
-    position: relative;
+    position: sticky;
+    top:0;
     width: 100vw;
+    display: block;
+    text-align: center;
+    z-index: 9000;
+    background-color: #B8BCC2;
+  }
+  div.menu a{
+    margin: 5px;
+  }
+  div.menu a.underline{
+    display: none;
+  }
+  div.gallery a img{
+    height: auto;
+    width: 90vw;
+  }
+  div.gallery {
+    margin: 0;
+  }
+  div.menu h1{
+    display:block;
+  }
+  div.menu h1 a{
+    background-color: transparent;
+  }
+  div.vertical img {
+    height: auto;
+    width: 90vw;
+  }
+  div.vertical{
+    margin:0;
+  }
+  div.big img{
+    height: auto;
+    width: 90vw;
+  }
+  div.big{
+    margin:0;
+  }
+  div.gallery.small img{
+    height: auto;
+    width: 45vw;
+  }
+  div.gallery.small a img{
+    height: 30vw;
+    width: auto;
+  }
+  div.gallery.small{
+    margin-top: 5px;
   }
 }
