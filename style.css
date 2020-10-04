@@ -270,6 +270,8 @@ h5{
   div.title h1{
     font-size: 50;
     text-align:center;
+    position: sticky;
+    top: 0;
   }
   div.menu{
     position: sticky;
