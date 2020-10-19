@@ -239,12 +239,32 @@ h5{
   flex-direction: column;
 }
 
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 12;
+  color: rgb(46,46,46);
+  text-align: right;
+  bottom:0;
+  flex:1;
+  flex-direction: column;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+
 #sketch{
   position: fixed;
   top:0;
   left:0;
   width: calc(100vw - 600px);
   height: 100vh;
+}
+
+#sketch2{
+  position: center;
+  top:0;
+  width: 500px;
+  height: 500px;
 }
 
 @media all and (max-width:800px){
