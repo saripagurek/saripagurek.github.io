@@ -243,13 +243,10 @@ h6{
   font-family: 'Raleway', sans-serif;
   font-size: 12;
   color: rgb(46,46,46);
-  text-align: right;
-  bottom:0;
+  text-align: center;
   flex:1;
   flex-direction: column;
-  position: fixed;
-  bottom: 15px;
-  left: 15px;
+  margin: 0;
 }
 
 #sketch{
