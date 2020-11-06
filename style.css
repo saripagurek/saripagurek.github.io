@@ -39,12 +39,23 @@ div.big{
   text-align: center;
   margin-bottom: 4px;
   margin-right: 200px;
+}
 
+div.vertical div.gallery{
+  margin-right: 0px;
+}
+
+div.vertical div.big{
+  margin-right: 0px;
+}
+
+div.vertical div.big img{
+  margin-right: 0px;
 }
 
 div.big img{
   height: 500px;
-  margin-right: 200px;
+margin-right: 200px;
 }
 
 div.gallery a{
@@ -118,6 +129,18 @@ div.text{
   justify-content: center;
   margin: 8px;
   filter: drop-shadow(0 0 0.75rem black);
+}
+
+div.book{
+  text-align: center;
+  padding: 8px;
+  background-color: rgba(203,203,203,1);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  filter: drop-shadow(0 0 0.75rem black);
+  margin-right: 208px;
 }
 
 div.text h5{
