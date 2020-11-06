@@ -14,7 +14,8 @@ div.background{
   background-color: var(--background);
   z-index: -1;
   position: fixed;
-  
+  filter: drop-shadow(0 0 0.75rem black);
+
 }
 
 div.viewer{
@@ -31,7 +32,7 @@ div.gallery {
   flex:1;
   flex-direction: row;
   margin-right: 200px;
-
+  filter: drop-shadow(0 0 0.5rem black);
 }
 
 div.big{
@@ -71,8 +72,69 @@ nav{
   margin-right: 200px;
 }
 
-div.vertical img{
+div.portfolioimage{
+  text-align: center;
+  flex:1;
+  flex-direction: row;
+  margin-right: 200px;
+}
 
+div.portfolioimage a:hover{
+  color: rgba(255,255,255,1);
+  position: relative;
+}
+
+div.portfolioimage a:hover h3{
+  background-color: rgba(0,0,0,0.5);
+  display: content;
+  opacity: 1;
+}
+
+div.portfolioimage a {
+  display: inline-block;
+  position: relative;
+}
+
+div.portfolioimage a h3{
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color linear 0.3s;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+div.text{
+  text-align: center;
+  padding: 8px;
+  background-color: rgba(203,203,203,1);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+div.text h5{
+  color: rgb(46,46,46);
+}
+
+div.text h6{
+  color: rgb(46,46,46);
+  text-align: left;
+  margin: 10px;
+}
+
+div.vertical h1{
+  color: rgba(203,203,203,1);
+  text-shadow: none;
+  filter: drop-shadow(0 0 0.25rem black);
+  font-size: 75;
 }
 
 div.gallery a:hover{
@@ -81,6 +143,7 @@ div.gallery a:hover{
 
 div.gallery a h3{
   position: absolute;
+  opacity ease: 0.3s;
   top: 0;
   left: 0;
   right: 0;
@@ -99,7 +162,6 @@ div.gallery a:hover h3{
 div.gallery a img{
   height: 350px;
   width: auto;
-
 }
 
 div.gallery.small a img{
@@ -250,7 +312,7 @@ h4{
 
 h5{
   font-family: 'Raleway', sans-serif;
-  font-size: 14;
+  font-size: 18;
   color: rgba(203,203,203,1);
   text-align: center;
   flex:1;
@@ -347,6 +409,13 @@ h6{
     width: 90vw;
   }
   div.vertical{
+    margin:0;
+  }
+  div.portfolioimage img {
+    height: auto;
+    width: 90vw;
+  }
+  div.portfolioimage{
     margin:0;
   }
   div.big img{
