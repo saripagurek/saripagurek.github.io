@@ -6,6 +6,11 @@ body {
   min-height: 100vh;
 }
 
+div.video{
+  width: auto;
+  height: auto;
+}
+
 div.pagebreak{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -60,7 +65,7 @@ div.vertical div.big img{
 
 div.big img{
   height: 500px;
-margin-right: 200px;
+  margin-right: 200px;
 }
 
 div.gallery a{
@@ -466,5 +471,27 @@ h6{
   }
   div.background{
     right: 0px;
+  }
+  div.vertical h1{
+    font-size: 50;
+  }
+  h5{
+    font-size: 14;
+  }
+  #sketch2{
+    position: center;
+    top:0;
+    width: 250;
+    height: 250;
+  }
+  div.video{
+    position: center;
+    width: 250;
+    height: auto;
+  }
+  video{
+    position: center;
+    width: 250;
+    height: auto;
   }
 }
