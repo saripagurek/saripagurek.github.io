@@ -8,8 +8,8 @@ let yNoise = 0.0;
 var positions = []
 var sizes = []
 function setup() {
-  createCanvas(400, 400, WEBGL);
-  
+  createCanvas(600, 600, WEBGL);
+
   for (var i = 0; i < 40; i += 1) {
     x = random(-50, 50);
     y = random(-50, 50);
@@ -30,7 +30,7 @@ function draw() {
   ambientMaterial(230, 233, 247);
   xNoise = xNoise + 0.01;
   yNoise = yNoise + 0.01;
-  
+
   for (var i = 0; i < 40; i += 1) {
     push();
     var position = positions[i]
@@ -39,10 +39,10 @@ function draw() {
     let n = noise(xNoise, 1000 * position.z) * 100 - 50
     let l = noise(yNoise, 1000 * position.z) * 100 - 50
     translate(position.x + n,position.y + l, position.z)
-  
-    sphere(size); 
+
+    sphere(size);
     pop();
   }
-  
+
 
 }
