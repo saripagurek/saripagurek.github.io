@@ -510,6 +510,7 @@ h8{
   div.maintitle h1{
     font-size: 50;
     text-align:center;
+    margin: 0px;
   }
   div.maintitle h8{
     display: none;
