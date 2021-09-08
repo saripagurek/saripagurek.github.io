@@ -470,6 +470,7 @@ h8{
   left:0;
   width: calc(100vw - 600px);
   height: 100vh;
+  z-index: -1;
 }
 
 #sketch2{
