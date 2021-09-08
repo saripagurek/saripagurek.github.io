@@ -494,6 +494,7 @@ h8{
     width: 250px;
     flex: 1;
     position: relative;
+    align-self: center;
   }
   div.title{
     position: relative;
