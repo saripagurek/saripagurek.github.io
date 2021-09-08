@@ -491,9 +491,9 @@ h8{
     align-items: center;
   }
   #sketch{
-    position: relative;
-    width: 100vw;
+    width: 250px;
     flex: 1;
+    position: relative;
   }
   div.title{
     position: relative;
@@ -511,6 +511,7 @@ h8{
     font-size: 50;
     text-align:center;
     margin: 0px;
+    justify-content: flex-end;
   }
   div.maintitle h8{
     display: none;
@@ -614,5 +615,9 @@ h8{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+  }
+  div.story img{
+    align-items: center;
+    justify-content: center;
   }
 }
