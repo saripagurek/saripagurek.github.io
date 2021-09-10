@@ -619,7 +619,6 @@ h8{
     justify-content: flex-start;
   }
   div.story img{
-    align-items: center;
-    justify-content: center;
+    align-self: center;
   }
 }
