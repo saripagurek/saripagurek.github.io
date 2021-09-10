@@ -8,7 +8,9 @@ let yNoise = 0.0;
 var positions = []
 var sizes = []
 function setup() {
-  createCanvas((windowWidth/3), (windowHeight/3), WEBGL);
+  createCanvas(600, 600, WEBGL);
+  //windowResized()
+  //alert(windowWidth)
 
   for (var i = 0; i < 40; i += 1) {
     x = random(-50, 50);
@@ -44,9 +46,9 @@ function draw() {
     pop();
   }
 
-  function windowResized() {
-  resizeCanvas((windowWidth/3), (windowHeight/3));
-}
+  //function windowResized() {
+  //resizeCanvas((windowWidth/3), (windowHeight/3));
+//}
 
 
 }

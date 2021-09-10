@@ -468,9 +468,11 @@ h8{
   position: fixed;
   top:0;
   left:0;
-  width: calc(100vw - 600px);
+  width: calc(100vw/2.5);
   height: 100vh;
   z-index: -1;
+  border-width: 5px;
+  border-color: black;
 }
 
 #sketch2{
@@ -491,7 +493,6 @@ h8{
     align-items: center;
   }
   #sketch{
-    width: 250px;
     flex: 1;
     position: relative;
     align-self: center;
