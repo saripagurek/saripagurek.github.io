@@ -10,7 +10,9 @@ var sizes = []
 function setup() {
   createCanvas(600, 600, WEBGL);
   //windowResized()
-  //alert(windowWidth)
+  debugger;
+  alert(windowX)
+  alert(windowY)
 
   for (var i = 0; i < 40; i += 1) {
     x = random(-50, 50);
@@ -46,9 +48,9 @@ function draw() {
     pop();
   }
 
-  //function windowResized() {
-  //resizeCanvas((windowWidth/3), (windowHeight/3));
-//}
+  function windowResized() {
+  resizeCanvas((windowWidth/3), (windowHeight/3));
+}
 
 
 }

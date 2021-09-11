@@ -14,7 +14,7 @@ div.storyImages{
 
 div.story{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 div.story img{
@@ -159,6 +159,10 @@ nav{
   text-align: center;
   margin: 8px;
   margin-right: 200px;
+}
+
+div.vertical img{
+  width: calc(100vw/2.7)
 }
 
 div.portfolioimage{
