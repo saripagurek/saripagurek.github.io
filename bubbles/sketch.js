@@ -10,7 +10,6 @@ var sizes = []
 function setup() {
   createCanvas(600, 600, WEBGL);
   //windowResized()
-  debugger;
   alert(windowX)
   alert(windowY)
 
