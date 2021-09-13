@@ -475,8 +475,6 @@ h8{
   width: calc(100vw/2.5);
   height: 100vh;
   z-index: -1;
-  border-width: 5px;
-  border-color: black;
 }
 
 #sketch2{
@@ -501,6 +499,8 @@ h8{
     position: relative;
     align-self: center;
     align-content: center;
+    min-height: 70vh;
+    width: 100vw;
   }
   div.title{
     position: relative;

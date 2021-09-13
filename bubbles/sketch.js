@@ -7,11 +7,17 @@ let xNoise = 0.0;
 let yNoise = 0.0;
 var positions = []
 var sizes = []
+
+function windowResized() {
+resizeCanvas((windowWidth), (windowHeight));
+//console.log("break");
+}
+
 function setup() {
-  createCanvas(600, 600, WEBGL);
-  //windowResized()
-  alert(windowX)
-  alert(windowY)
+  createCanvas((windowWidth), (windowHeight), WEBGL);
+  windowResized()
+  //alert(windowX)
+  //alert(windowY)
 
   for (var i = 0; i < 40; i += 1) {
     x = random(-50, 50);
@@ -34,6 +40,10 @@ function draw() {
   xNoise = xNoise + 0.01;
   yNoise = yNoise + 0.01;
 
+  const shortestSideLength = min(windowWidth, windowHeight);
+  scale(max(shortestSideLength/300, 1.2));
+  translate(0, -10);
+
   for (var i = 0; i < 40; i += 1) {
     push();
     var position = positions[i]
@@ -47,9 +57,7 @@ function draw() {
     pop();
   }
 
-  function windowResized() {
-  resizeCanvas((windowWidth/3), (windowHeight/3));
-}
+
 
 
 }
