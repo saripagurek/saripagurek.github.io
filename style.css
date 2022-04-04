@@ -1,8 +1,8 @@
 body {
-  background-color: #988EBD;
+  background-color: #1b1921;
   background-size: cover;
   background-position: center;
-  padding: 15px;
+  padding: 40px;
   min-height: 100vh;
 }
 
@@ -18,7 +18,7 @@ div.story{
 }
 
 div.story img{
-  border-radius: 10px;
+  border-radius: 0px;
   filter: drop-shadow(0 0 0.75rem black);
   margin: 8px;
   align-self: flex-start;
@@ -34,26 +34,41 @@ div.text button{
   flex-direction: row;
   justify-content: left;
   margin-left: 8px;
+  background-color: #8B84B2;
 }
 
 div.maintitle{
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex: 1;
   width:60vw;
-  margin-top: 30vh;
-  margin-left: 40vw;
+  /*margin-top: 30vh;
+  margin-left: 40vw;*/
   text-align: left;
+}
+
+div.rectangle{
+  width: calc(100vw/2.8);
+  height: calc(100vh/1.6);
+  background-color: #FBDAFD;
+  z-index: -1000;
+  margin-left: 51vw;
+  margin-top: 20vh;
+  position: fixed;
 }
 
 div.maintitle h8{
   width:40vw;
 }
 
-div.maintitle h1{
-  margin-right: 50px;
+/*div.maintitle h1{
+  text-align: left;
+  /*margin-right: 50px;
 }
+  */
+
 
 a.button{
   display: static;
@@ -61,13 +76,14 @@ a.button{
 	padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-	background-color: #8C71AD;
-	border-radius: 10px;
+	background-color: #8B84B2;
+	border-radius: 0px;
 	color: #000;
-  width: 48px;
+  width: 120px;
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 a.button:hover{
@@ -109,14 +125,14 @@ div.gallery {
   text-align: center;
   flex:1;
   flex-direction: row;
-  margin-right: 200px;
+  /*margin-right: 200px;*/
   filter: drop-shadow(0 0 0.5rem black);
 }
 
 div.big{
   text-align: center;
   margin-bottom: 4px;
-  margin-right: 200px;
+  /*margin-right: 200px;*/
 }
 
 div.vertical div.gallery{
@@ -133,7 +149,7 @@ div.vertical div.big img{
 
 div.big img{
   height: 500px;
-  margin-right: 200px;
+  /*margin-right: 200px;*/
 }
 
 div.gallery a{
@@ -158,7 +174,7 @@ nav{
  div.vertical{
   text-align: center;
   margin: 8px;
-  margin-right: 200px;
+  /*margin-right: 200px;*/
 }
 
 div.vertical img{
@@ -169,7 +185,7 @@ div.portfolioimage{
   text-align: center;
   flex:1;
   flex-direction: row;
-  margin-right: 200px;
+  /*margin-right: 200px;*/
 }
 
 div.portfolioimage a:hover{
@@ -206,7 +222,7 @@ div.text{
   text-align: center;
   padding: 8px;
   background-color: rgba(203,203,203,1);
-  border-radius: 15px;
+  border-radius: 0px 70px;
   align-items: center;
   justify-content: center;
   margin: 8px;
@@ -227,9 +243,11 @@ div.book{
 
 div.text h5{
   color: rgb(46,46,46);
+  font-family: 'Anya Tamy', sans-serif;
   text-align: left;
   margin: 10px;
   margin-top: 20px;
+  font-size: 18;
   font-weight: bold;
 }
 
@@ -237,6 +255,7 @@ div.text h6{
   color: rgb(46,46,46);
   text-align: left;
   margin: 10px;
+  font-size: 14;
 }
 
 div.vertical h1{
@@ -321,36 +340,48 @@ div.title h1{
 }
 
 div.menu {
-  align-items:flex-end;
+  z-index: +100;
+  background-color: #1b1921;
+
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex:0;
+  flex-direction: row;
+  align-items:flex-end;
+  /*justify-content: flex-start;
+  flex:0;*/
   position: fixed;
-  bottom: 15px;
+  /*bottom: 15px;
   right: 15px;
-  margin-right: 5px;
+  margin-right: 5px;*/
+  top: 0px;
+  width: 100vw;
+  right: 0px;
+  left: 25px;
+  padding-top: 15px;
 }
 
 div.menu a{
-  font-family: 'Mada', sans-serif;
-  color: rgb(46,46,46);
-  font-size: 30;
+  font-family: 'Anya Tamy', sans-serif;
+  color: rgb(255,255,255);
+  font-size: 14;
   text-decoration: none;
   font-weight: bold;
+  padding: 15px;
 
 }
 div.menu a.highlight{
-  background-color: #8C71AD;
+  /*background-color: #8C71AD;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 10px;
-}
-
-div.menu a.underline{
+  border-radius: 10px;*/
   border-bottom: 1px solid rgba(203,203,203,1);
   margin-bottom: 5px;
+
 }
+
+/*div.menu a.underline{
+  border-bottom: 1px solid rgba(203,203,203,1);
+  margin-bottom: 5px;
+}*/
 
 h1 a{
   color: black;
@@ -362,14 +393,16 @@ h1 a{
 
 h1{
   position: relative;
-  font-family: 'Mada', sans-serif;
-  color: rgb(233,228,249);
+  font-family: 'Leky Calgria', sans-serif;
+  /*color: rgb(233,228,249);*/
+  color: rgb(255,255,255);
 /*  text-shadow: 7px 6px #A9A9A9;*/
-  filter: drop-shadow(5px 5px 3px rgb(46,46,46));
-  font-weight: 700;
-  font-size: 50;
+  /*filter: drop-shadow(5px 5px 3px rgb(46,46,46));*/
+  font-weight: 900;
+  font-size: 60;
   flex: 1;
   margin: 0;
+  line-height: 170%;
 }
 
 div.menu h1{
@@ -428,7 +461,7 @@ h4{
 }
 
 h5{
-  font-family: 'Mada', sans-serif;
+  font-family: 'Leky Calgria', sans-serif;
   font-size: 18;
   color: rgba(203,203,203,1);
   text-align: center;
@@ -437,8 +470,8 @@ h5{
 }
 
 h6{
-  font-family: 'Mada', sans-serif;
-  font-size: 18;
+  font-family: 'Anya Tamy', sans-serif;
+  font-size: 16;
   color: rgba(203,203,203,1);
   text-align: center;
   flex:1;
@@ -452,29 +485,33 @@ h6{
 }
 
 h7{
-  font-family: 'Raleway', sans-serif;
-  font-size: 12;
-  color: rgb(233,228,249);
+  font-family: 'Anya Tamy', sans-serif;
+  font-size: 14;
+  /*color: rgb(233,228,249);*/
+  color: #1b1921;
   text-align: center;
   position: relative;
 
 }
 
 h8{
-  font-family: 'Mada', sans-serif;
+  font-family: 'Anya Tamy', sans-serif;
+  color: rgb(251, 218, 253);
   font-size: 18;
   text-align: left;
-  color: rgb(45,45,45);
+  line-height: 130%;
+  /*color: rgb(45,45,45);*/
 }
 
 
 #sketch{
   position: fixed;
-  top:0;
-  left:0;
-  width: calc(100vw/2.5);
-  height: 100vh;
-  z-index: -1;
+  /*top: calc(100vh - (100vh/2.5))*/
+  top: 80px;
+  left: 50vw;
+  width: calc(100vw/4);
+  height: calc(100vh/1.5);
+  z-index: +1;
 }
 
 #sketch2{
@@ -500,7 +537,8 @@ h8{
     align-self: center;
     align-content: center;
     min-height: 70vh;
-    width: 100vw;
+    width: 80vw;
+    left: 0px;
   }
   div.title{
     position: relative;
@@ -517,10 +555,15 @@ h8{
   div.maintitle h1{
     font-size: 50;
     text-align:center;
-    margin: 0px;
     justify-content: flex-end;
   }
   div.maintitle h8{
+    display: none;
+  }
+  a.button{
+    background-color: #FBDAFD;
+  }
+  div.vertical a.button{
     display: none;
   }
   div.title h1{
@@ -534,16 +577,14 @@ h8{
     display: block;
     text-align: center;
     z-index: 9000;
-    background-color: #988EBD;
+    padding-bottom: 15px;
+    /*background-color: #988EBD;*/
   }
   div.menu.home{
     position: initial;
   }
   div.menu a{
     margin: 5px;
-  }
-  div.menu a.underline{
-    display: none;
   }
   div.gallery a img{
     height: auto;
@@ -616,6 +657,10 @@ h8{
     height: auto;
   }
   a.button{
+    /*display: none;*/
+    align-self: center;
+  }
+  div.rectangle{
     display: none;
   }
   div.story{
