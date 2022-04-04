@@ -1,3 +1,13 @@
+@font-face {
+  font-family: FontOne;
+  src: url("/LekyCalgriaPersonalUse-ywJRd.ttf")
+}
+
+@font-face {
+  font-family: FontTwo;
+  src: url("/Anya Tamy.ttf")
+}
+
 body {
   background-color: #1b1921;
   background-size: cover;
@@ -243,7 +253,7 @@ div.book{
 
 div.text h5{
   color: rgb(46,46,46);
-  font-family: 'Anya Tamy', sans-serif;
+  font-family: FontTwo, sans-serif;
   text-align: left;
   margin: 10px;
   margin-top: 20px;
@@ -360,7 +370,7 @@ div.menu {
 }
 
 div.menu a{
-  font-family: 'Anya Tamy', sans-serif;
+  font-family: FontTwo, sans-serif;
   color: rgb(255,255,255);
   font-size: 14;
   text-decoration: none;
@@ -393,7 +403,7 @@ h1 a{
 
 h1{
   position: relative;
-  font-family: 'Leky Calgria', sans-serif;
+  font-family: FontOne, sans-serif;
   /*color: rgb(233,228,249);*/
   color: rgb(255,255,255);
 /*  text-shadow: 7px 6px #A9A9A9;*/
@@ -461,7 +471,7 @@ h4{
 }
 
 h5{
-  font-family: 'Leky Calgria', sans-serif;
+  font-family: FontOne, sans-serif;
   font-size: 18;
   color: rgba(203,203,203,1);
   text-align: center;
@@ -470,7 +480,7 @@ h5{
 }
 
 h6{
-  font-family: 'Anya Tamy', sans-serif;
+  font-family: FontTwo, sans-serif;
   font-size: 16;
   color: rgba(203,203,203,1);
   text-align: center;
@@ -485,7 +495,7 @@ h6{
 }
 
 h7{
-  font-family: 'Anya Tamy', sans-serif;
+  font-family: FontTwo, sans-serif;
   font-size: 14;
   /*color: rgb(233,228,249);*/
   color: #1b1921;
@@ -495,7 +505,7 @@ h7{
 }
 
 h8{
-  font-family: 'Anya Tamy', sans-serif;
+  font-family: FontTwo, sans-serif;
   color: rgb(251, 218, 253);
   font-size: 18;
   text-align: left;
