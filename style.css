@@ -46,6 +46,13 @@ div.text button{
   margin-left: 8px;
   background-color: #8B84B2;
 }
+div.code h6{
+  background-color: #31263b;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 20px;
+  color: #36d113
+}
 
 div.maintitle{
   padding-top: 40px;
