@@ -572,6 +572,13 @@ div.rectangle{
   }
 
   div.verticalcontent h1{
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  div.buttonrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
   }
 }
