@@ -570,4 +570,8 @@ div.rectangle{
   div.textbubble img{
     width: 50vw;
   }
+
+  div.verticalcontent h1{
+    font-size: 30px;
+  }
 }
