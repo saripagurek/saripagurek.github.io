@@ -572,7 +572,7 @@ div.rectangle{
   }
 
   div.verticalcontent h1{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   div.buttonrow{
@@ -580,5 +580,12 @@ div.rectangle{
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+  }
+
+  div.textbubble{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
