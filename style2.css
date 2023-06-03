@@ -116,10 +116,11 @@
 
 .links {
   position: absolute;
-  width: 50vw;
+  width: 0px;
   right: 0;
   top: 0;
-  height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -128,6 +129,7 @@
   opacity: 0;
   transition: 0.3s;
   transform: translateX(10px);
+  animation: hide 1s forwards ease;
 }
 
 ul {
@@ -147,7 +149,7 @@ ul {
   transition: 0.3s;
   opacity: 0;
   transform: translateX(10px);
-  animation: hide 0.5s forwards ease;
+  animation: hide 0.01s forwards ease;
 }
 
 .links a:hover {
@@ -159,6 +161,7 @@ ul {
 }
 
 .container.active .links {
+  width: 50vw;
   animation: appear 0.5s forwards ease var(--i);
 }
 
