@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FontOne;
+  src: url("Fonts/NeueMetanaMono-SemiBold.otf")
+}
+
+#sketch{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  background-color: #FEFCF0;
+}
+
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  /*background-color: #FEFCF0;*/
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 3rem;
+}
+
+.menu {
+  /*max-width: 72rem;*/
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #fff;
+}
+
+
+.hamburger-menu {
+  height: 4rem;
+  width: 3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar {
+  width: 1.9rem;
+  height: 1.5px;
+  border-radius: 2px;
+  background-color: #1F1F1F;
+  transition: 0.5s;
+  position: relative;
+}
+
+.bar:before,
+.bar:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #1F1F1F;
+  transition: 0.5s;
+}
+
+.bar:before {
+  transform: translateY(-9px);
+}
+
+.bar:after {
+  transform: translateY(9px);
+}
+
+
+.title {
+  font-size: 2.7rem;
+}
+
+
+.container.active .bar {
+  transform: rotate(360deg);
+  background-color: transparent;
+}
+
+.container.active .bar:before {
+  transform: translateY(0) rotate(45deg);
+  background-color: #FFFFFF;
+}
+
+.container.active .bar:after {
+  transform: translateY(0) rotate(-45deg);
+  background-color: #FFFFFF;
+}
+
+.container.active .links {
+  background-color: #1F1F1F;
+}
+
+
+.links {
+  position: absolute;
+  width: 50vw;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFCF0;
+  opacity: 0;
+  transition: 0.3s;
+  transform: translateX(10px);
+}
+
+ul {
+  list-style: none;
+}
+
+.links a {
+  font-family: FontOne;
+  text-decoration: none;
+  color: #FFF;
+  padding: 0.7rem 0;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateX(10px);
+  animation: hide 0.5s forwards ease;
+}
+
+.links a:hover {
+  color: #FAFF0A;
+}
+
+.container.active .links a {
+  animation: appear 0.5s forwards ease var(--i);
+}
+
+.container.active .links {
+  animation: appear 0.5s forwards ease var(--i);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+}
+
+
+@media (max-width: 900px) {
+
+
+  .links {
+    width: 100vw;
+  }
+
+}
