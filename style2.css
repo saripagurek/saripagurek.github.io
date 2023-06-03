@@ -17,6 +17,11 @@
   background-color: #FEFCF0;
 }
 
+.test {
+  width: 100vw;
+  height: 600px;
+  background-color: #FFF;
+}
 
 .container {
   min-height: 100vh;
