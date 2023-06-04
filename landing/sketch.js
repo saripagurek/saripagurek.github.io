@@ -1,7 +1,7 @@
 var rectLocation;
 var cw = window.innerWidth;
 var ch = window.innerHeight; 
-//var fontsize = 128;
+var fontsize = 128;
 
 class Shape{
     constructor(x, y, img, w, h){
@@ -21,7 +21,13 @@ class Shape{
 function setup() {
   canvas = createCanvas(cw,ch);
   
-  //myFont = loadFont('NeueMetanaMono-SemiBold.otf');
+  if (cw <= 1200) {
+    fontsize = 84;
+    if (cw <= 670) {
+      fontsize = 48;
+    }
+  }
+  myFont = loadFont('NeueMetanaMono-SemiBold.otf');
 
   p1 = loadImage('p1.png');
   p2 = loadImage('p2.png');
@@ -38,12 +44,12 @@ function setup() {
   s6 = new Shape(cw/6, ch/4, p6, 179, 204);
   s7 = new Shape(200, 0, p7, 645, 332);
   s8 = new Shape(-50, ch/4, p8, 891, 179);
-  s9 = new Shape(-cw/6, -ch/6, p1, 173, 557);
-  shapes = [s1, s2, s3, s5, s6, s7, s8, s9];
+  shapes = [s1, s2, s3, s5, s6, s7, s8];
+}
 
 function draw() {
     background(254, 252, 240);
-    //textFont(myFont, fontsize);
+    textFont(myFont, fontsize);
     for (let i = 0; i < shapes.length; i++) {
       currShape = shapes[i];
       var target = createVector(currShape.x + mouseX/currShape.vel, currShape.y + mouseY/currShape.vel);
