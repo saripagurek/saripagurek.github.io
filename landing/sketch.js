@@ -56,6 +56,9 @@ function draw() {
       var target = createVector(currShape.x + mouseX/currShape.vel, currShape.y + mouseY/currShape.vel);
       var distance = target.dist(currShape.location);
       var mappedDistance = map(distance, 100, 0, 1.5, 0.5);
+      if (distance < 10) {
+        mappedDistance = map(distance, 10, 0, 0.5, 0);
+      }
       target.sub(currShape.location);
       target.normalize();
       target.mult(mappedDistance);  

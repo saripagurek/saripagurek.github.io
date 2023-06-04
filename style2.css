@@ -445,8 +445,7 @@ ul {
     width: 100vw;
     height: auto;
     max-width: none;
-    padding: 50px;
-    padding-top: 0px;
+    padding: 0px;
   }
 
   .maintitle {
@@ -482,7 +481,7 @@ ul {
   }
 
   .landing_section_one img{
-    padding: 50px;
+    padding: 0px;
     padding-bottom: 0px;
     width: 100vw;
     max-height: none;
@@ -498,7 +497,7 @@ ul {
   }
 }
 
-@media (max-width: 670px) {
+@media (pointer:none) {
   #sketch{
   display: none;
   }
