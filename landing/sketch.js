@@ -61,8 +61,8 @@ function draw() {
       currShape.location.add(target);
       currShape.show();
     }
-  textAlign(LEFT, CENTER);
-  name = "SARI\nPAGUREK\nVAN MOSSEL";
-  nameW = textWidth(name);
-  text(name, cw/9, ch/2);
+  //textAlign(LEFT, CENTER);
+  //name = "SARI\nPAGUREK\nVAN MOSSEL";
+  //nameW = textWidth(name);
+  //text(name, cw/9, ch/2);
 }
