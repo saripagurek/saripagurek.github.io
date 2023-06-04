@@ -139,6 +139,16 @@ h3 {
   height: 100vh;
   z-index: -100;
   background-color: #FEFCF0;
+  display: block;
+}
+
+#sketch2{
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  background-color: #FEFCF0;
 }
 
 .landing_section_one {
@@ -485,6 +495,15 @@ ul {
       }
     }
 
+  }
+}
+
+@media (max-width: 670px) {
+  #sketch{
+  display: none;
+  }
+  #sketch2{
+  display: block;
   }
 }
 

@@ -2,6 +2,7 @@ var rectLocation;
 var cw = window.innerWidth;
 var ch = window.innerHeight; 
 var fontsize = 128;
+var timer = 0;
 
 class Shape{
     constructor(x, y, img, w, h){
@@ -9,7 +10,7 @@ class Shape{
     this.y = y;
     this.location = createVector(this.x, this.y);
     this.img = img;
-    this.vel = random(1, 8);
+    this.vel = random(2, 8);
     this.w = w
     this.h = h;
   }
@@ -20,6 +21,7 @@ class Shape{
 
 function setup() {
   canvas = createCanvas(cw,ch);
+  spot = createVector(100, 100);
   
   if (cw <= 1200) {
     fontsize = 84;
@@ -50,10 +52,18 @@ function setup() {
 
 function draw() {
     background(254, 252, 240);
+  
+    if(timer >= 200) {
+      rx = random(-500, cw + 500);
+      ry = random(-500, ch + 500);
+      spot = createVector(rx, ry);
+      timer = 0;
+    }
+  
     textFont(myFont, fontsize);
     for (let i = 0; i < shapes.length; i++) {
       currShape = shapes[i];
-      var target = createVector(currShape.x + mouseX/currShape.vel, currShape.y + mouseY/currShape.vel);
+      var target = createVector(currShape.x + spot.x/currShape.vel, currShape.y + spot.y/currShape.vel);
       var distance = target.dist(currShape.location);
       var mappedDistance = map(distance, 100, 0, 1.5, 0.5);
       target.sub(currShape.location);
@@ -66,4 +76,5 @@ function draw() {
   //name = "SARI\nPAGUREK\nVAN MOSSEL";
   //nameW = textWidth(name);
   //text(name, cw/9, ch/2);
+  timer = timer + 1;
 }
