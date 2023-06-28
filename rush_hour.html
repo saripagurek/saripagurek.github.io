@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sari Pagurek</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+  </head>
+  <body>
+    
+    <div class="background">
+      <div class="container" style="--i: 0.05s;">
+
+      <div class="navbar">
+        <div class="menu">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">HOME</a>
+          </li>
+          <li>
+            <a href="projects.html" style="--i: 0.1s;">WORK</a>
+          </li>
+          <li>
+            <a href="art.html" style="--i: 0.15s;">ART</a>
+          </li>
+          <!--<li>
+            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
+          </li>-->
+          <li>
+            <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
+          </li>
+          <!--<li>
+            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
+          </li>-->
+          <li>
+            <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
+          </li>
+          <li>
+            <a href="mailto:sari.pvm@gmail.com" style="--i: 0.3s;">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="vertical_content">
+        
+        <div class="project_title">
+          <h1>Rush Hour</h1>
+        <h2>Modeling the game Rush Hour with predicate logic.</h2>
+        </div>
+
+        <div class="text_block">
+
+        <h8>The kids game Rush Hour involves a map for each game that dictates where to place each car. The goal is to move the cars around the board in order to free a path for the winning car to exit the board.</h8>
+        <h8>Cars take up two adjacent cells, either horizontally or vertically, and move along the axis in which their two cells are adjacent. The solution to any given board, if it exists, can be modeled by a sequence of car movements until there is either a clear path for the winning car to exit, or it is deemed unsolvable.</h8>
+        <h8>I will model the order of these required movements on a simplified game board from the original car placement to the final arrangement when the winning car is free. To do this, I will set constraints on all car movements to eventually be able to compute which movements are possible, test them, and assess which sequence of movements result in a solved or declared unsolvable board. </h8><br>
+
+        <h8>Simplified board: 5x5 board, 4 cars + winning car, the winning car always starts directly across the board from the exit oriented horizontally <span class="code">(C_31,C_32)</span>. As opposed to the real game, the board may not necessarily be solvable.</h8>
+
+        <div class="text_images">
+          <img src="Photos/board1.png">
+          <img src="Photos/board2.png">
+        </div>
+        <h8>Fig 1: Empty board with winning car and exit, Fig 2: Example board with cars</h8>
+
+        <br><h8>Propositions:</h8>
+        <div class="code_block">
+          <h8>&#x2022; P_rc is true for (1 ≤ r ≤ 5 ^ 1 ≤ c ≤ 5)</h8>
+          <h8>&#x2022; C_rc is true if a car exists at row r and column c</h8>
+          <h8>&#x2022; V_ds is true when a car oriented vertically is able to move s spaces in d direction</h8>
+          <h8>&#x2022;H_ds is true when a car oriented horizontally is able to move s spaces in d direction</h8>
+        </div>
+        <br><h8>Constraints:</h8>
+        <h8>Between each game state (grid specifying the two positions of each car and the exit as displayed above) there is one car movement.</h8>
+        <div class="code_block">
+          <h8>&#x2022; A car can move forwards or backwards along its given axis: C_(r + s c) or C_(r  c + s) forwards, or C_(r - s c) or C_(r  c - s) backwards</h8>
+          <h8>&#x2022; A car cannot be oriented in two directions at the same time: For a given car C,  ~(C_rc ^ C_(r + 1 c + 1))</h8>
+          <h8>&#x2022; Only one car can move at a time: |{C_rc ^ ~(C_(r + 1 c + 1)}| = 1</h8>
+          <h8>&#x2022; A car can’t move s spaces if another car is blocking the same row/col between its desired position and its current position: C_(rc + s) → ~(V_ds) or C_(r + s c)→ ~(H_ds)</h8>
+          <h8>&#x2022; A car can’t move s spaces forward or backwards if grid space s + 1 doesn’t exist (a wall is reached): ~(P_(r c+ s)) → ~(V_ds) or  ~(P_(r + s  c)) → ~(H_ds)</h8>
+        </div><br>
+
+        <h8>Limitations:</h8>
+        <h8>My model assumes the given board is formulated correctly, and thus does not account for the event in which a car is placed in the winning car’s position <span class="code">(P_31 P_32)</span> or any other cars are overlapping when the game board is generated. It additionally does not account for the scenario in which a non-winning car leaves the board through the exit. To improve upon my model and address these limitations, the next step would be to add similar constraints to car movement on the generation of the original board to disallow any car overlap. As well it would be necessary to address the possibility of a car exiting the board, and thus being removed from any future car movements (the car off the board cannot move nor return to the board). This could be achieved by removing the existence of the car once it has exited, its movements being recorded but not being included in any further game states. </h8>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    
+    <div class="footer">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="projects.html" >WORK</a></li>
+        <li><a href="art.html">ART</a></li>
+        <li><a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" >RESUME</a></li>
+        <li><a href="under_construction.html" target="_blank">PORTFOLIO</a></li>
+        <li><a href="https://github.com/saripagurek" target="_blank" >GITHUB</a></li>
+        <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
+      </ul>
+    </div>
+    <script src="JS/nav.js"></script>
+  </body>
+</html>

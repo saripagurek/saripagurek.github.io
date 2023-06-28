@@ -2,6 +2,27 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+.background {
+  background-color: #292929;
+}
+
+.background .bar:before{
+  background-color: #FEFCF0;
+}
+
+.background .bar:after{
+  background-color: #FEFCF0;
+}
+
+.background .bar {
+  background-color: #FEFCF0;
+}
+
+body{
+  background-color: #FEFCF0;
 }
 
 html {
@@ -18,6 +39,13 @@ html {
   src: url("Fonts/NeueMetanaMono-Light.otf")
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+h1 {
+  color: #1F1F1F;
+  font-family: FontOne;
+}
+
 h2 {
   font-family: FontTwo;
   font-size: 20px;
@@ -30,6 +58,115 @@ h3 {
   color: #1F1F1F;
 }
 
+h5{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+h8 {
+  font-family: FontTwo;
+  font-size: 16px;
+  color: #FFF;
+  text-align: left;
+}
+
+a h8 {
+  text-decoration: underline;
+}
+
+span.code {
+  background-color: #cccccc;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: 'Source Code Pro', monospace;
+  color: #1F1F1F;
+  padding: 0.2em;
+  vertical-align: middle;
+  word-wrap: normal;
+}
+
+.code_block {
+  background-color: #cccccc;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.code_block h8 {
+  font-family: 'Source Code Pro', monospace;
+  color: #1F1F1F;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  gap: 15px;
+  line-height: 150%;
+}
+
+.text_block img {
+  align-self: center;
+}
+
+.text_images {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.text_images img{
+  width: calc(50% - 7.5px) !important;
+}
+
+.vertical_content {
+  text-align: center;
+  margin: 40px;
+}
+
+.vertical_content h1 {
+  font-size: 80px;
+  margin: 50px;
+  padding-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vertical_content h8 {
+  /*margin-left: 20vw;
+  margin-right: 20vw;*/
+}
+
+.vertical_content img {
+  width: 60vw;
+}
+
+.project_title {
+  margin: 50px;
+  padding-top: 20px;
+}
+
+.project_title h1 {
+  color: #FFF;
+  font-size: 48px;
+}
+
+.project_title h2 {
+  color: #FAFF0A;
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.gallery {
+  margin-bottom: 40px;
+}
+
 .button_white {
   width: 100%;
   height: 55px;
@@ -39,6 +176,7 @@ h3 {
   align-items: center;
   border-radius: 100px 0px 0px 0px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color linear 0.3s;
 }
 
 .button_black {
@@ -50,6 +188,7 @@ h3 {
   align-items: center;
   border-radius: 0px 100px 0px 0px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color linear 0.3s;
 }
 
 .button_white h2{
@@ -430,15 +569,84 @@ ul {
   grid-row-end: 9;
 }
 
+video{
+  width: auto;
+  height: 400px;
+}
+
+.pagebreak{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#sketch3{
+  position: center;
+  top:0;
+  width: 500px;
+  height: 500px;
+  background-color: #FFF;
+}
+
 
 @media (max-width: 1200px) {
   .landing_section_one img{
   max-width: 50vw;
 }
 
+.project_title h2 {
+    margin: 0px;
+  }
+
+  .text_block {
+  margin: 50px;
+}
+
+.vertical_content h8 {
+  /*margin: 50px;*/
+}
+
   @media (max-width: 900px) {
-    .container.active .links {
+
+  .container.active .links {
     width: 100vw;
+  }
+
+  .pagebreak{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  video{
+    position: center;
+    width: 60vw;
+    height: auto;
+  }
+
+  #sketch3{
+    position: center;
+    top:0;
+    width: 250px;
+    height: 250px;
+  }
+
+  .vertical_content {
+    margin: 0;
+  }
+
+  .vertical_content h1 {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .vertical_content h3 {
+    padding-bottom: 25px;
+  }
+
+  .vertical_content img {
+    width: 90vw;
+  }
+
+  .text_block img {
+    width: 90vw;
   }
 
   .collage_container {
@@ -497,7 +705,7 @@ ul {
   }
 }
 
-@media (pointer:none) {
+@media (pointer: coarse) {
   #sketch{
   display: none;
   }

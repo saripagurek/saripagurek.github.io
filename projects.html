@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width">
-    <script src="JS/navbar.js" defer></script>
-
-    <script src="JS/script.js"></script>
-
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-
-    </head>
-
-    <nav class="navbar">
-      <div class="brand-title"><h1>SARI PAGUREK VAN MOSSEL</h1></div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-        </a>
-      <div class="navbar-links">
-      <ul>
-        <li><a href="index.html"><h4>Home</h4></a></li>
-        <li><a href="about.html"><h4>About</h4></a></li>
-        <li><a href="projects.html"><h4>Projects</h4></a></li>
-        <li><a href="art.html"><h4>Art</h4></a></li>
-        <li><a href="mailto:saripvm@gmail.com"><h4>Contact</h4></a></li>
-      </ul>
-      </div>
-    </nav>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+  </head>
 
     <body>
+      <div class="container" style="--i: 0.05s;">
 
-      <div class="content">
-        <div class="content-mobile">
-          <div class="verticalcontent">
-            <h1>Projects</h1>
-            <div class="pagebreak"></div>
+          <div class="navbar">
+        <div class="menu">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
           </div>
+        </div>
+      </div>
 
-          <div class="gallery">
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">HOME</a>
+          </li>
+          <li>
+            <a href="projects.html" style="--i: 0.1s;">WORK</a>
+          </li>
+          <li>
+            <a href="art.html" style="--i: 0.15s;">ART</a>
+          </li>
+          <!--<li>
+            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
+          </li>-->
+          <li>
+            <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
+          </li>
+          <!--<li>
+            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
+          </li>-->
+          <li>
+            <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
+          </li>
+          <li>
+            <a href="mailto:sari.pvm@gmail.com" style="--i: 0.3s;">CONTACT</a>
+          </li>
+        </ul>
+      </div>
 
-            <a href="microbit.html">
+      <div class="vertical_content">
+         <h1>WORK</h1>
+      </div>
+
+        <div class="gallery">
+
+            <!--<a href="microbit.html">
               <h5>Musical Fitness Tracker 2023</h5>
               <img src="Photos/microbit.png">
+            </a>-->
+
+            <a href="water_consumption.html">
+              <h5>Water Consumption: Arduino Visualization 2023</h5>
+              <img src="Photos/coca.jpg">
+            </a>
+
+            <a href="cy4ye.html">
+              <h5>Canadian Youth for Youth Empowerment 2023</h5>
+              <img src="Photos/cy4ye.png">
+            </a>
+
+            <a href="rush_hour.html">
+              <h5>Rush Hour: Logic Model 2022</h5>
+              <img src="Photos/rushhour.png">
             </a>
 
             <a href="logic_calculator.html">
@@ -71,18 +102,23 @@
               <img src="Photos/Artly/A4 - 2.jpg">
             </a>
 
-            <a href="mario_platformer.html">
+            <!--<a href="mario_platformer.html">
               <h5>Mario Platformer 2021</h5>
               <img src="Photos/mario.png">
-            </a>
+            </a>-->
 
             <a href="unrealengine.html">
               <h5>Unreal Engine Video Game 2021</h5>
               <img src="Photos/unrealEngine.jpg">
             </a>
 
+            <a href="bubbles.html">
+              <h5>3D Bubbles Animation 2021</h5>
+              <img src="Photos/bubbles.png">
+            </a>
+
             <a href="enchanted_jumper.html">
-              <h5>Enchanted Jumper 2021</h5>
+              <h5>Enchanted Jumper 2020</h5>
               <img src="Photos/EnchantedJumper/pygame4.jpg">
             </a>
 
@@ -92,10 +128,20 @@
             </a>
 
           </div>
-
+          <div class="pagebreak"></div>
 
         </div>
-      </div>
-
+        <div class="footer">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#" >WORK</a></li>
+        <li><a href="art.html">ART</a></li>
+        <li><a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" >RESUME</a></li>
+        <li><a href="under_construction.html" target="_blank">PORTFOLIO</a></li>
+        <li><a href="https://github.com/saripagurek" target="_blank" >GITHUB</a></li>
+        <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
+      </ul>
+    </div>
+        <script src="JS/nav.js"></script>
     </body>
 </html>

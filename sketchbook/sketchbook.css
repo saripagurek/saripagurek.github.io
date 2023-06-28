@@ -1,0 +1,77 @@
+body{
+	/*background-color: #FEFCF0;*/
+}
+
+.slider{
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.sketchbook_images {
+	width: 100%;
+	height: 100%;
+}
+
+.myslide img{
+	width: 100%;
+	height: 100%;
+}
+
+.prev, .next{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-size: 50px;
+	padding: 15px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.1s;
+	user-select: none;
+}
+.prev:hover, .next:hover{
+	color: #FAFF0A;
+}
+.next{
+	right: 0;
+}
+.dotsbox{
+	position: sticky;
+	z-index: 100;
+	bottom: 10%;
+}
+.dot{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #FFF;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.dot.active, .dot:hover{
+	background-color: #FAFF0A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

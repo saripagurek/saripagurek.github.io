@@ -1,67 +1,114 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width">
-    <script src="JS/navbar.js" defer></script>
-
-    <script src="JS/script.js"></script>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-
-    </head>
-
-      <nav class="navbar">
-        <div class="brand-title"><h1>SARI PAGUREK VAN MOSSEL</h1></div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-          </a>
-        <div class="navbar-links">
-        <ul>
-          <li><a href="about.html"><h4>About</h4></a></li>
-          <li><a href="projects.html"><h4>Projects</h4></a></li>
-          <li><a href="art.html"><h4>Art</h4></a></li>
-          <li><a href="mailto:saripvm@gmail.com"><h4>Contact</h4></a></li>
-        </ul>
-        </div>
-      </nav>
-
-    <body>
-
-      <div class="content">
-        <div class="rectangle">
-        </div>
-
-        <div class="maintitle">
-          <h1>SARI</h1>
-          <h1>PAGUREK</h1>
-          <h1>VAN</h1>
-          <h1>MOSSEL</h1>
-
-          <div class="pagebreak">
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+  </head>
+  <body>
+    
+    <div class="container" style="--i: 0.05s;">
+      <div class="maintitle">
+        <h1>SARI</h1>
+        <h1>PAGUREK</h1>
+        <h1>VAN MOSSEL</h1>
+      </div>
+        <a href="#landingOne"><span class="scroll_arrow">
+          <img src="landing/arrow.png">
+        </span></a> 
+      <iframe id=sketch src="landing/index.html" frameborder=0></iframe>
+      <iframe id=sketch2 src="landingMobile/index.html" frameborder=0></iframe>
+      <div class="navbar">
+        <div class="menu">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
           </div>
-
-          <h2>Hi, I'm Sari.</h2>
-          <h2>I’m a student pursuing an Honours Bachelors of Computing with a minor in Film and Media at Queen's University.</h2>
-
-          <div class="pagebreak">
-          </div>
-
         </div>
-
-
-        <iframe id=sketch src="bubbles/index.html" frameborder=0></iframe>
-
-        <div class="content-mobile">
-        <h2>Hi, I'm Sari.</h2>
-        <h2>I’m a student pursuing an Honours Bachelors of Computing with a minor in Film and Media at Queen's University.</h2>
-        <a class="button"  href="Docs/SariPagurekvanMossel_Resume.pdf"target="_blank"><h3>Resume</h3></a>
-        </div>
-
       </div>
 
-    </body>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="projects.html" style="--i: 0.05s;">WORK</a>
+          </li>
+          <li>
+            <a href="art.html" style="--i: 0.1s;">ART</a>
+          </li>
+          <!--<li>
+            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
+          </li>-->
+          <li>
+            <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.15s;">RESUME</a>
+          </li>
+          <!--<li>
+            <a href="under_construction.html" style="--i: 0.2s;">PORTFOLIO</a>
+          </li>-->
+          <li>
+            <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
+          </li>
+          <li>
+            <a href="mailto:sari.pvm@gmail.com" style="--i: 0.3s;">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <div class="landing_section_one" id=landingOne>
+      <img src="Photos/saripagurek.jpg">
+      <div class="landing_content">
+        <div class="block_content">
+          <h1>Hi, I'm Sari.</h1>
+          <h2>I’m a student pursuing a Bachelors of Computing (Honours) with a minor in Film and Media at Queen's University.</h2>
+          <h2>I'm interested in creative programming and interactive design, but also have a love for fine arts.</h2>
+          <a class="button_white"  href="Docs/SariPagurekvanMossel_Resume.pdf"target="_blank"><h2>RESUME</h2></a>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="landing_section_two">
+      <div class="landing_content">
+        <div class="block_content">
+          <!--<h3>I’ve had many amazing opportunities to take on several creative and leadership roles.</h3>-->
+          <h3>I love to work in design, DSLR photography, motion graphics, and visual art.</h3>
+          <h3>Take a look at my creative portfolio:</h3>
+          <a class="button_black"  href="under_construction.html" target="_blank"><h2>PORTFOLIO</h2></a>
+        </div>
+      </div>
+      <div class="collage_container">
+        <div class="collage">
+                <figure class="collage__item collage__item--1">
+                    <img src="Photos/museheadshot.jpg" class="collage__img">
+                </figure>
+                <figure class="collage__item collage__item--2">
+                    <img src="Photos/lenapainting.jpg" class="collage__img">
+                </figure>
+                <figure class="collage__item collage__item--3">
+                    <img src="Photos/vcfsshow.JPG" class="collage__img">
+                </figure>
+                <figure class="collage__item collage__item--4">
+                    <img src="Photos/vcfsheadshot.jpg" class="collage__img">
+                </figure>
+            </div>
+      </div>
+    </div>
+    <div class="footer">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="projects.html" >WORK</a></li>
+        <li><a href="art.html">ART</a></li>
+        <li><a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" >RESUME</a></li>
+        <li><a href="under_construction.html" target="_blank">PORTFOLIO</a></li>
+        <li><a href="https://github.com/saripagurek" target="_blank" >GITHUB</a></li>
+        <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <script src="JS/nav.js"></script>
+  </body>
 </html>
