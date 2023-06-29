@@ -11,8 +11,8 @@ class Shape{
     this.location = createVector(this.x, this.y);
     this.img = img;
     this.vel = random(2, 8);
-    this.w = w
-    this.h = h;
+    this.w = w * 0.75;
+    this.h = h * 0.75;
   }
   show(){
     image(this.img, this.location.x, this.location.y, this.w, this.h);
@@ -44,7 +44,7 @@ function setup() {
   s3 = new Shape(cw/2, ch/3, p3, 647, 433.34);
   s5 = new Shape(cw/3, ch/3, p5, 891, 787);
   s6 = new Shape(cw/6, ch/4, p6, 179, 204);
-  s7 = new Shape(200, 0, p7, 645, 332);
+  s7 = new Shape(-200, 0, p7, 645, 208);
   s8 = new Shape(-50, ch/4, p8, 891, 179);
   s9 = new Shape(-cw/6, -ch/6, p1, 173, 557);
   shapes = [s1, s2, s3, s5, s6, s7, s8, s9];
