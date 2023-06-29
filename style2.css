@@ -577,6 +577,11 @@ video{
   height: 400px;
 }
 
+#video_reel{
+  width: auto;
+  height: 50vh;
+}
+
 .pagebreak{
   padding-top: 15px;
   padding-bottom: 15px;
