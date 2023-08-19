@@ -74,6 +74,30 @@ a h8 {
   text-decoration: underline;
 }
 
+@keyframes wipe-enter {
+  0% {
+    transform: scale(0, .025);
+  }
+  50% {
+    transform: scale(1, .025);
+  }
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: orange;
+  // etc...
+}
+
+.square-animation {
+    animation: wipe-enter 1s 1;
+  }
+
+.square-hide {
+  display: none;
+}
+
 span.code {
   background-color: #cccccc;
   border-radius: 5px;
