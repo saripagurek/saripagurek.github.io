@@ -1,6 +1,6 @@
 var rectLocation;
 var cw = window.innerWidth;
-var ch = window.innerHeight - 20; 
+var ch = window.innerHeight - 85; 
 
 function displayEye(x, y, d)
 {
@@ -15,7 +15,7 @@ function displayEye(x, y, d)
 }
 
 function setup() {
-  canvas = createCanvas(cw,ch + 20);
+  canvas = createCanvas(cw,ch + 85);
   comp = loadImage('comp.png');
 }
 
