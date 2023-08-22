@@ -68,6 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  position: relative;
 }
 
 .footer {
@@ -82,15 +83,40 @@ body {
   justify-content: center;
 }
 
-.title {
+.decorations {
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
   display: flex;
-  flex-direction: row;
-  gap: 15px;
-  align-items: center;
+  flex-direction: column;
 }
 
-.title img {
-  height: 50px;
+.decorations2 {
+  position: absolute;
+  bottom: 2vw;
+  right: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.decorations_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.decorations2_row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.decorations img {
+  width: 6vw;
+  margin: 10px;
+}
+
+.decorations2 img {
+  width: 6vw;
+  margin: 10px;
 }
 
 h1{
@@ -302,6 +328,14 @@ h4{
     padding: 15px;
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .decorations {
+    display: none;
+  }
+
+  .decorations2 {
+    display: none;
   }
 
 }
