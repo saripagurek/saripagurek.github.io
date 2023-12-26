@@ -331,7 +331,8 @@ span.code {
   height: auto;*/
   height: 100%;
   width: auto;
-  max-height: calc(100vh / 1.5);
+  /*max-height: calc(100vh / 1.5);*/
+  max-width: calc(100vw / 2.5);
 }
 
 .landing_section_two {
