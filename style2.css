@@ -606,6 +606,11 @@ video{
   height: 50vh;
 }
 
+#video_full{
+  width: 50vw;
+  height: 50vh;
+}
+
 .pagebreak{
   padding-top: 15px;
   padding-bottom: 15px;
