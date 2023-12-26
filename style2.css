@@ -70,8 +70,9 @@ h8 {
   text-align: left;
 }
 
-a h8 {
+h8 a {
   text-decoration: underline;
+  color: #FFF;
 }
 
 @keyframes wipe-enter {
