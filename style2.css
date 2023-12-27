@@ -75,6 +75,11 @@ h8 a {
   color: #FFF;
 }
 
+a h8 {
+  text-decoration: underline;
+  color: #FFF;
+}
+
 @keyframes wipe-enter {
   0% {
     transform: scale(0, .025);
