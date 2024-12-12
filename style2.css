@@ -93,7 +93,6 @@ a h8 {
   width: 200px;
   height: 200px;
   background: orange;
-  // etc...
 }
 
 .square-animation {
@@ -175,7 +174,7 @@ span.code {
 }
 
 .vertical_content img {
-  width: 60vw;
+  height: 80vh;
 }
 
 .project_title {
