@@ -679,8 +679,8 @@ video{
 }
 
 #video_full{
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 70vh;
 }
 
 .pagebreak{
@@ -703,10 +703,11 @@ video{
 }
 
 #filter-controls button {
-  font-size: 2vmin;
+  font-size: 2.5vmin;
+  padding: 2px 4px;
 }
 h3 {
-  font-size: 2vmin;
+  font-size: 2.5vmin;
 }
 
 .project_title h2 {
@@ -718,7 +719,7 @@ h3 {
 }
 
 #filter-controls{
-  gap: 1px;
+  gap: 0.5px;
 }
 
   @media (max-width: 900px) {
@@ -742,13 +743,6 @@ h3 {
     min-height: 70vh;
     width: 100vw;
     left: 0px;
-  }
-
-  #sketch2{
-    position: center;
-    top:0;
-    width: 250px;
-    height: 250px;
   }
 
   .container.active .links {

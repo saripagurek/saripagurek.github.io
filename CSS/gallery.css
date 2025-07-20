@@ -136,4 +136,8 @@
     gap: 10px;
     padding: 12px 0;
   }
+  .gallery-modal-img {
+    max-width: 80vw;
+    max-height: 80vh;
+  }
 }
