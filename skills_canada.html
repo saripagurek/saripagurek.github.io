@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/gallery.css" />
     <link rel="icon" 
       type="image/png" 
       href="logo.png">
@@ -34,15 +35,9 @@
           <li>
             <a href="art.html" style="--i: 0.15s;">ART</a>
           </li>
-          <!--<li>
-            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
-          </li>-->
           <li>
             <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
           </li>
-          <!--<li>
-            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
-          </li>-->
           <li>
             <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
           </li>
@@ -60,29 +55,21 @@
         <h2>Achieved Top Ten in Provincial Division</h2>
         </div>
 
-        <section>
-            <div class="big">
-              <div class=viewer style="background-image:url('Photos/Art/SkillsCanada/skills1.jpg')">
-            </div>
-
-            <div class="gallery small">
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills1.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills2.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills3.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills4.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills5.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills6.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills7.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills8.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/SkillsCanada/skills9.jpg"></a>
-            </div>
-          </section>
-
       </div>
 
+      <div class="photo-gallery">
+            <div class="gallery-grid">
+                <img src="Photos/Art/SkillsCanada/skills1.jpg" alt="Photo 1">
+                <img src="Photos/Art/SkillsCanada/skills2.jpg" alt="Photo 2">
+                <img src="Photos/Art/SkillsCanada/skills3.jpg" alt="Photo 3">
+                <img src="Photos/Art/SkillsCanada/skills4.jpg" alt="Photo 4">
+                <img src="Photos/Art/SkillsCanada/skills5.jpg" alt="Photo 5">
+                <img src="Photos/Art/SkillsCanada/skills6.jpg" alt="Photo 6">
+                <img src="Photos/Art/SkillsCanada/skills7.jpg" alt="Photo 7">
+            </div>
+        </div>
     </div>
-    </div>
-    
+
     <div class="footer">
       <ul>
         <li><a href="index.html">HOME</a></li>
@@ -93,8 +80,17 @@
         <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
       </ul>
     </div>
+
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="modal-x">
+            <div class="x-bar"></div>
+            <div class="x-bar"></div>
+        </div>
+      <img class="gallery-modal-img" src="" alt="Large view">
+    </div>
+
     <script src="JS/nav.js"></script>
-    <script type="text/javascript" src="gallery.js"></script>
+    <script type="text/javascript" src="JS/gallery.js"></script>
   </body>
 </html>
 

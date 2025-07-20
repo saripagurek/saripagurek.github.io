@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/gallery.css" />
     <link rel="icon" 
       type="image/png" 
       href="logo.png">
-
   </head>
   <body>
     
@@ -34,15 +35,9 @@
           <li>
             <a href="art.html" style="--i: 0.15s;">ART</a>
           </li>
-          <!--<li>
-            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
-          </li>-->
           <li>
             <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
           </li>
-          <!--<li>
-            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
-          </li>-->
           <li>
             <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
           </li>
@@ -58,9 +53,7 @@
           <h1>Having Her Cake And Eating It Too</h1>
         <h2>Photography (2023)</h2>
         </div>
-
-          <div class="text_block">
-          <h8>
+        <h8>
             Editorial photoshoot for <a href="https://muse-magazine.com/" target="_blank"> MUSE Magazine</a>.<br>
             Creative Director: Olivia Parent <br>
             Photographer: Sari Pagurek van Mossel <br>
@@ -69,22 +62,23 @@
             Models: Aluel Achiek, Emi Rucinski, Dalyah Schiarizza
           </h8>
       </div>
-      <div class="pagebreak"></div>
 
-      <img src="Photos/Art/Having_Cake/img1.jpg">
-      <img src="Photos/Art/Having_Cake/img2.jpg">
-      <img src="Photos/Art/Having_Cake/img3.jpg">
-      <img src="Photos/Art/Having_Cake/img4.jpg">
-      <img src="Photos/Art/Having_Cake/img5.jpg">
-      <img src="Photos/Art/Having_Cake/img6.jpg">
-      <img src="Photos/Art/Having_Cake/img7.jpg">
-      <img src="Photos/Art/Having_Cake/img8.jpg">
-      <img src="Photos/Art/Having_Cake/img9.jpg">
-      <img src="Photos/Art/Having_Cake/img10.jpg">
-      <img src="Photos/Art/Having_Cake/img11.jpg">
-      <img src="Photos/Art/Having_Cake/img12.jpg">
-
-    </div>
+      <div class="photo-gallery">
+            <div class="gallery-grid">
+              <img src="Photos/Art/Having_Cake/img1.jpg">
+              <img src="Photos/Art/Having_Cake/img2.jpg">
+              <img src="Photos/Art/Having_Cake/img3.jpg">
+              <img src="Photos/Art/Having_Cake/img4.jpg">
+              <img src="Photos/Art/Having_Cake/img5.jpg">
+              <img src="Photos/Art/Having_Cake/img6.jpg">
+              <img src="Photos/Art/Having_Cake/img7.jpg">
+              <img src="Photos/Art/Having_Cake/img8.jpg">
+              <img src="Photos/Art/Having_Cake/img9.jpg">
+              <img src="Photos/Art/Having_Cake/img10.jpg">
+              <img src="Photos/Art/Having_Cake/img11.jpg">
+              <img src="Photos/Art/Having_Cake/img12.jpg">
+            </div>
+        </div>
     </div>
 
     <div class="footer">
@@ -97,10 +91,17 @@
         <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
       </ul>
     </div>
+
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="modal-x">
+            <div class="x-bar"></div>
+            <div class="x-bar"></div>
+        </div>
+      <img class="gallery-modal-img" src="" alt="Large view">
+    </div>
+
     <script src="JS/nav.js"></script>
+    <script type="text/javascript" src="JS/gallery.js"></script>
+  </body>
 </html>
-
-
-
-
 

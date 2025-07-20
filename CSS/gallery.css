@@ -1,0 +1,139 @@
+/* Gallery grid */
+.photo-gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.photo-gallery .gallery-grid img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.photo-gallery .gallery-grid img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+/* Modal styles */
+.gallery-modal {
+  position: fixed;
+  z-index: 10000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background-color: #1F1F1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: background 0.3s, opacity 0.3s;
+}
+
+.gallery-modal.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.gallery-modal-close {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10001;
+  transition: color 0.3s;
+}
+
+.gallery-modal-close:hover {
+  color: #FAFF0A;
+}
+
+.gallery-modal-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+}
+
+/* Modal X button styling */
+.modal-x {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  width: 2.2rem;
+  height: 2.2rem;
+  z-index: 10001;
+  cursor: pointer;
+  display: block;
+}
+
+.x-bar {
+  position: absolute;
+  left: 0;
+  width: 1.9rem;
+  height: 1.5px;
+  border-radius: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.x-bar:first-child {
+  top: 1.05rem;
+  transform: rotate(0deg);
+}
+.x-bar:last-child {
+  top: 1.05rem;
+  transform: rotate(0deg);
+}
+
+.modal-x.open .x-bar {
+  opacity: 1;
+}
+.modal-x.open .x-bar:first-child {
+  transform: rotate(45deg);
+}
+.modal-x.open .x-bar:last-child {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 950px) {
+  .photo-gallery .gallery-grid {
+    max-width: 95vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+    padding: 16px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-modal-img {
+    max-width: 99vw;
+    max-height: 75vh;
+  }
+  .gallery-modal-close {
+    top: 10px;
+    right: 16px;
+    font-size: 2rem;
+  }
+  .photo-gallery .gallery-grid {
+    max-width: 90vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 12px 0;
+  }
+}

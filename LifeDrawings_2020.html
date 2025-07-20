@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/gallery.css" />
     <link rel="icon" 
       type="image/png" 
       href="logo.png">
@@ -34,15 +35,9 @@
           <li>
             <a href="art.html" style="--i: 0.15s;">ART</a>
           </li>
-          <!--<li>
-            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
-          </li>-->
           <li>
             <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
           </li>
-          <!--<li>
-            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
-          </li>-->
           <li>
             <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
           </li>
@@ -61,41 +56,36 @@
 
         <img src="Photos/Art/LifeDrawings/p1&2.jpg">
         <div class="pagebreak"></div>
+
         <br><h8>Short pose life drawing sketches & gestures done in a figure and life drawing class at the Ottawa School of Art.</h8><br>
         <div class="pagebreak"></div>
         <div class="pagebreak"></div>
 
-        <section>
-            <div class="big">
-              <div class=viewer style="background-image:url('Photos/Art/LifeDrawings/p22.jpg')">
+        <div class="photo-gallery">
+            <div class="gallery-grid">
+              <img src="Photos/Art/LifeDrawings/p3.jpg">
+              <img src="Photos/Art/LifeDrawings/p4.jpg">
+              <img src="Photos/Art/LifeDrawings/p5.jpg">
+              <img src="Photos/Art/LifeDrawings/p6.jpg">
+              <img src="Photos/Art/LifeDrawings/p7.jpg">
+              <img src="Photos/Art/LifeDrawings/p8.jpg">
+              <img src="Photos/Art/LifeDrawings/p9.jpg">
+              <img src="Photos/Art/LifeDrawings/p10.jpg">
+              <img src="Photos/Art/LifeDrawings/p11.jpg">
+              <img src="Photos/Art/LifeDrawings/p12.jpg">
+              <img src="Photos/Art/LifeDrawings/p13.jpg">
+              <img src="Photos/Art/LifeDrawings/p14.jpg">
+              <img src="Photos/Art/LifeDrawings/p15.jpg">
+              <img src="Photos/Art/LifeDrawings/p16.jpg">
+              <img src="Photos/Art/LifeDrawings/p17.jpg">
+              <img src="Photos/Art/LifeDrawings/p18.jpg">
+              <img src="Photos/Art/LifeDrawings/p19.jpg">
+              <img src="Photos/Art/LifeDrawings/p20.jpg">
+              <img src="Photos/Art/LifeDrawings/p21.jpg">
+              <img src="Photos/Art/LifeDrawings/p22.jpg">
             </div>
-
-            <div class="gallery small">
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p3.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p4.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p5.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p6.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p7.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p8.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p9.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p10.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p11.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p12.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p13.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p14.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p15.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p16.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p17.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p18.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p19.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p20.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p21.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/LifeDrawings/p22.jpg"></a>
-            </div>
-          </section>
-
+        </div>
       </div>
-
     </div>
     </div>
     
@@ -109,7 +99,16 @@
         <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
       </ul>
     </div>
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="modal-x">
+            <div class="x-bar"></div>
+            <div class="x-bar"></div>
+        </div>
+      <img class="gallery-modal-img" src="" alt="Large view">
+    </div>
+
+
     <script src="JS/nav.js"></script>
-    <script type="text/javascript" src="gallery.js"></script>
+    <script type="text/javascript" src="JS/gallery.js"></script>
   </body>
 </html>

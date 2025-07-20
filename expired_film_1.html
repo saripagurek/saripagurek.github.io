@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/gallery.css" />
     <link rel="icon" 
       type="image/png" 
       href="logo.png">
@@ -34,15 +35,9 @@
           <li>
             <a href="art.html" style="--i: 0.15s;">ART</a>
           </li>
-          <!--<li>
-            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
-          </li>-->
           <li>
             <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
           </li>
-          <!--<li>
-            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
-          </li>-->
           <li>
             <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
           </li>
@@ -55,35 +50,29 @@
       <div class="vertical_content">
         
         <div class="project_title">
-          <h1>Expired Film Album</h1>
-        <h2>Experimenting with 35mm film, expired 2006</h2>
+          <h1>Expired Film 2024</h1>
+        <h2>Experimenting with 35mm Kodak film, expired 2006</h2>
         </div>
-
-        <section>
-            <div class="big">
-              <div class=viewer style="background-image:url('Photos/Art/ExpBW/exp_bw_5.JPG')">
-            </div>
-
-            <div class="gallery small">
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_1.JPG"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_2.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_3.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_4.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_5.JPG"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_6.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_7.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_8.JPG"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_9.jpg"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_10.JPG"></a>
-              <a><h5></h5><img src="Photos/Art/ExpBW/exp_bw_11.jpg"></a>
-            </div>
-          </section>
 
       </div>
 
+      <div class="photo-gallery">
+            <div class="gallery-grid">
+              <img src="Photos/Art/ExpBW/exp_bw_1.JPG">
+              <img src="Photos/Art/ExpBW/exp_bw_2.jpg">
+              <img src="Photos/Art/ExpBW/exp_bw_3.jpg">
+              <img src="Photos/Art/ExpBW/exp_bw_4.jpg">
+              <img src="Photos/Art/ExpBW/exp_bw_5.JPG">
+              <img src="Photos/Art/ExpBW/exp_bw_6.jpg">
+              <img src="Photos/Art/ExpBW/exp_bw_7.jpg">
+              <img src="Photos/Art/ExpBW/exp_bw_8.JPG">
+              <img src="Photos/Art/ExpBW/exp_bw_9.jpg">
+              <img src="Photos/Art/ExpBW/exp_bw_10.JPG">
+              <img src="Photos/Art/ExpBW/exp_bw_11.jpg">
+            </div>
+        </div>
     </div>
-    </div>
-    
+
     <div class="footer">
       <ul>
         <li><a href="index.html">HOME</a></li>
@@ -94,8 +83,17 @@
         <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
       </ul>
     </div>
+
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="modal-x">
+            <div class="x-bar"></div>
+            <div class="x-bar"></div>
+        </div>
+      <img class="gallery-modal-img" src="" alt="Large view">
+    </div>
+
     <script src="JS/nav.js"></script>
-    <script type="text/javascript" src="gallery.js"></script>
+    <script type="text/javascript" src="JS/gallery.js"></script>
   </body>
 </html>
 

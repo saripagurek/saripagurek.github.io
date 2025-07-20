@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sari Pagurek</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" 
       type="image/png" 
@@ -33,15 +33,9 @@
           <li>
             <a href="art.html" style="--i: 0.15s;">ART</a>
           </li>
-          <!--<li>
-            <a href="sketchbook.html" style="--i: 0.1s;">SKETCHBOOK</a>
-          </li>-->
           <li>
             <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
           </li>
-          <!--<li>
-            <a href="#" style="--i: 0.2s;">PORTFOLIO</a>
-          </li>-->
           <li>
             <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
           </li>
@@ -53,181 +47,217 @@
 
       <div class="vertical_content">
          <h1>ART</h1>
-         <h3> Visual art, animation, and photography.</h3>
-      </div>
-
+         <div id="filter-controls" style="margin: 20px 0;">
+          <button onclick="filterGallery('all')">All</button>
+          <button onclick="filterGallery('photo')">Photo/Video</button>
+          <button onclick="filterGallery('paint')">Paint</button>
+          <button onclick="filterGallery('pencil')">Pencil</button>
+          <button onclick="filterGallery('animation')">Animation</button>
+          <button onclick="filterGallery('design')">Design</button>
+        </div>
         <div class="gallery">
 
-          <a href="bub_and_zaid.html">
+          <a id="tuscany-film" data-category="photo" href="tuscany.html">
+            <h5>Tuscany Film Album 2025</h5>
+            <img src="Photos/Art/Italy/Tuscany/20-53.jpg">
+          </a>
+
+          <a id="cinque-terre-film" data-category="photo" href="cinque_terre.html">
+            <h5>Cinque Terre Film Album 2025</h5>
+            <img src="Photos/Art/Italy/CinqueTerre/15-56.jpg">
+          </a>
+
+          <a id="rome-venice-film" data-category="photo" href="italy.html">
+            <h5>Rome & Venice Film Album 2025</h5>
+            <img src="Photos/Art/Italy/Italy/36-48.jpg">
+          </a>
+
+          <a id="greece-film" data-category="photo" href="greece.html">
+            <h5>Greece Film Album 2025</h5>
+            <img src="Photos/Art/Greece/19-36.jpg">
+          </a>
+
+          <a id="becoming-insect" data-category="animation" href="becoming_insect.html">
+            <h5>Becoming Insect 2025</h5>
+            <img src="Photos/insect.png">
+          </a>
+
+          <a id="bub-and-zaid" data-category="pencil" href="bub_and_zaid.html">
             <h5>Bub & Zaid 2024</h5>
             <img src="Photos/Art/bub_and_zaid.jpg">
           </a>
 
-            <a href="sea.html">
-              <h5>The Sea 2024</h5>
-              <img src="Photos/Art/sea.jpg">
-            </a>
+            <a id="sea-2024" data-category="paint" href="sea.html">
+            <h5>The Sea 2024</h5>
+            <img src="Photos/Art/sea.jpg">
+          </a>
 
-            <a href="scream.html">
-              <h5>Scream 2024</h5>
-              <img src="Photos/Art/scream.jpg">
-            </a>
+          <a id="scream-2024" data-category="paint" href="scream.html">
+            <h5>Scream 2024</h5>
+            <img src="Photos/Art/scream.jpg">
+          </a>
 
-            <a href="europe_semester.html">
-              <h5>Semester in Europe 2024</h5>
-              <img src="Photos/europe.JPG">
-            </a>
+          <a id="europe-semester-2024" data-category="photo" href="europe_semester.html">
+            <h5>Semester in Europe 2024</h5>
+            <img src="Photos/europe.JPG">
+          </a>
 
-            <a href="alberta_film.html">
-              <h5>Alberta Film Album 2024</h5>
-              <img src="Photos/Art/Alberta/alb11.jpg">
-            </a>
+          <a id="alberta-film-2024" data-category="photo" href="alberta_film.html">
+            <h5>Alberta Film Album 2024</h5>
+            <img src="Photos/Art/Alberta/alb11.jpg">
+          </a>
 
-            <a href="duck.html">
-              <h5>Duck 2024</h5>
-              <img src="Photos/Art/duck.jpg">
-            </a>
+          <a id="duck-2024" data-category="paint" href="duck.html">
+            <h5>Duck 2024</h5>
+            <img src="Photos/Art/duck.jpg">
+          </a>
 
-            <a href="expired_film_1.html">
-              <h5>Expired Film Album 2024</h5>
-              <img src="Photos/Art/ExpBW/exp_bw_5.JPG">
-            </a>
+          <a id="expired-film-1-2024" data-category="photo" href="expired_film_1.html">
+            <h5>Expired Film Album 2024</h5>
+            <img src="Photos/Art/ExpBW/exp_bw_5.JPG">
+          </a>
 
-            <a href="expired_film_2.html">
-              <h5>Expired Film Album 2024</h5>
-              <img src="Photos/Art/ExpCol/exp_col_1.jpg">
-            </a>
+          <a id="expired-film-2-2024" data-category="photo" href="expired_film_2.html">
+            <h5>Expired Film Album 2024</h5>
+            <img src="Photos/Art/ExpCol/exp_col_1.jpg">
+          </a>
 
-          <a href="ben_anna.html">
-              <h5>Ben & Anna 2023</h5>
-              <img src="Photos/Art/ben_anna.jpg">
-            </a>
+          <a id="ben-anna-2023" data-category="paint" href="ben_anna.html">
+            <h5>Ben & Anna 2023</h5>
+            <img src="Photos/Art/ben_anna.jpg">
+          </a>
 
-            <a href="cow.html">
-              <h5>Cow 2023</h5>
-              <img src="Photos/Art/cow.jpg">
-            </a>
+          <a id="cow-2023" data-category="paint" href="cow.html">
+            <h5>Cow 2023</h5>
+            <img src="Photos/Art/cow.jpg">
+          </a>
 
-          <a href="midnight_snack.html">
-              <h5>Midnight Snack 2023</h5>
-              <img src="Photos/Art/midnight_snack.png">
-            </a>
+          <a id="midnight-snack-2023" data-category="animation" href="midnight_snack.html">
+            <h5>Midnight Snack 2023</h5>
+            <img src="Photos/Art/midnight_snack.png">
+          </a>
 
-          <a href="having_cake.html">
-              <h5>Having Her Cake And Eating It Too 2023</h5>
-              <img src="Photos/Art/Having_Cake/img10.jpg">
-            </a>
+          <a id="having-cake-2023" data-category="photo" href="having_cake.html">
+            <h5>Having Her Cake And Eating It Too 2023</h5>
+            <img src="Photos/Art/Having_Cake/img10.jpg">
+          </a>
 
-          <a href="alphabet_soup.html">
-              <h5>Alphabet Soup 2023</h5>
-              <img src="Photos/Art/alphabet_soup.png">
-            </a>
+          <a id="alphabet-soup-2023" data-category="animation" href="alphabet_soup.html">
+            <h5>Alphabet Soup 2023</h5>
+            <img src="Photos/Art/alphabet_soup.png">
+          </a>
 
-          <a href="underwater_bedroom.html">
-              <h5>Underwater Bedroom 2023</h5>
-              <img src="Photos/Art/underwaterBedroom.png">
-            </a>
+          <a id="underwater-bedroom-2023" data-category="animation" href="underwater_bedroom.html">
+            <h5>Underwater Bedroom 2023</h5>
+            <img src="Photos/Art/underwaterBedroom.png">
+          </a>
 
-            <a href="teacups.html">
-              <h5>Teacups 2023</h5>
-              <img src="Photos/Art/Teacups/cup4.jpg">
-            </a>
+          <a id="teacups-2023" data-category="design animation" href="teacups.html">
+            <h5>Teacups 2023</h5>
+            <img src="Photos/Art/Teacups/cup4.jpg">
+          </a>
 
-            <a target="_blank" href="Photos/vcfs_portfolio_photography.pdf">
-              <h5>VCFS Photography Portfolio 2023</h5>
-              <img src="Photos/vcfs.png">
-            </a>
+          <a id="vcfs-photography-2023" data-category="photo" target="_blank" href="Photos/vcfs_portfolio_photography.pdf">
+            <h5>VCFS Photography Portfolio 2023</h5>
+            <img src="Photos/vcfs.png">
+          </a>
 
-            <a href="oilpaintstudies.html">
-              <h5>Oil Paint Studies 2022</h5>
-              <img src="Photos/Art/oilstudy2.jpg">
-            </a>
+          <a id="oilpaintstudies-2-2022" data-category="paint" href="oilpaintstudies.html">
+            <h5>Oil Paint Studies 2022</h5>
+            <img src="Photos/Art/oilstudy2.jpg">
+          </a>
 
-            <a href="oilpaintstudies.html">
-              <h5>Oil Paint Studies 2022</h5>
-              <img src="Photos/Art/oilstudy1.jpg">
-            </a>
+          <a id="oilpaintstudies-1-2022" data-category="paint" href="oilpaintstudies.html">
+            <h5>Oil Paint Studies 2022</h5>
+            <img src="Photos/Art/oilstudy1.jpg">
+          </a>
 
-            <a href="motion_graphics.html">
-              <h5>Motion Graphics 2022</h5>
-              <img src="Photos/motiongraphics.png">
-            </a>
+          <a id="motion-graphics-2022" data-category="design" href="motion_graphics.html">
+            <h5>Motion Graphics 2022</h5>
+            <img src="Photos/motiongraphics.png">
+          </a>
 
-            <a href="parents.html">
-              <h5>Parents 2021</h5>
-              <img src="Photos/Art/parents.jpg">
-            </a>
+          <a id="parents-2021" data-category="pencil" href="parents.html">
+            <h5>Parents 2021</h5>
+            <img src="Photos/Art/parents.jpg">
+          </a>
 
-            <a href="vatican_city.html">
-              <h5>The Vatican City 2021</h5>
-              <img src="Photos/Art/vaticancity.jpg">
-            </a>
+          <a id="vatican-city-2021" data-category="paint" href="vatican_city.html">
+            <h5>The Vatican City 2021</h5>
+            <img src="Photos/Art/vaticancity.jpg">
+          </a>
 
-            <a href="imagine.html">
-              <h5>Imagine 2020</h5>
-              <img src="Photos/Art/imagine.jpg">
-            </a>
+          <a id="imagine-2020" data-category="design" href="imagine.html">
+            <h5>Imagine 2020</h5>
+            <img src="Photos/Art/imagine.jpg">
+          </a>
 
-            <a href="mortality.html">
-              <h5>Mortality 2020</h5>
-              <img src="Photos/Art/mortality.jpg">
-            </a>
+          <a id="mortality-2020" data-category="paint" href="mortality.html">
+            <h5>Mortality 2020</h5>
+            <img src="Photos/Art/mortality.jpg">
+          </a>
 
-           <!-- <a href="story_of_my_bedroom.html">
-              <h5>Story of my Bedroom Series 2020</h5>
-              <img src="Photos/Art/tryptic1.jpg">
-            </a>-->
+          <!--
+          <a id="story-of-my-bedroom-2020" data-category="paint" href="story_of_my_bedroom.html">
+            <h5>Story of my Bedroom Series 2020</h5>
+            <img src="Photos/Art/tryptic1.jpg">
+          </a>
+          -->
 
-            <a href="LifeDrawings_2020.html">
-              <h5>Life Drawing Series 2020</h5>
-              <img src="Photos/Art/LifeDrawings/p1&2.jpg">
-            </a>
+          <a id="lifedrawings-2020" data-category="pencil" href="LifeDrawings_2020.html">
+            <h5>Life Drawing Series 2020</h5>
+            <img src="Photos/Art/LifeDrawings/p1&2.jpg">
+          </a>
 
-            <a href="portrait_2020.html">
-              <h5>Portrait 2020</h5>
-              <img src="Photos/Art/portrait2020.jpg">
-            </a>
+          <a id="portrait-2020" data-category="pencil" href="portrait_2020.html">
+            <h5>Portrait 2020</h5>
+            <img src="Photos/Art/portrait2020.jpg">
+          </a>
 
-            <a href="generalave.html">
-              <h5>General Avenue 2020</h5>
-              <img src="Photos/Art/generalave.jpg">
-            </a>
+          <a id="generalave-2020" data-category="paint" href="generalave.html">
+            <h5>General Avenue 2020</h5>
+            <img src="Photos/Art/generalave.jpg">
+          </a>
 
-            <a href="sunday_morning.html">
-              <h5>Sunday Morning 2020</h5>
-              <img src="Photos/Art/sundaymorning.jpg">
-            </a>
+          <a id="sunday-morning-2020" data-category="paint" href="sunday_morning.html">
+            <h5>Sunday Morning 2020</h5>
+            <img src="Photos/Art/sundaymorning.jpg">
+          </a>
 
-            <a href="kayla.html">
-              <h5>Kayla 2020</h5>
-              <img src="Photos/Art/kayla.jpg">
-            </a>
+          <a id="kayla-2020" data-category="paint" href="kayla.html">
+            <h5>Kayla 2020</h5>
+            <img src="Photos/Art/kayla.jpg">
+          </a>
 
-            <a href="skills_canada.html">
-              <h5>Skills Canada 2020 Photography Submission</h5>
-              <img src="Photos/Art/SkillsCanada/skills1.jpg">
-            </a>
+          <a id="skills-canada-2020" data-category="photo" href="skills_canada.html">
+            <h5>Skills Canada 2020 Photography Submission</h5>
+            <img src="Photos/Art/SkillsCanada/skills1.jpg">
+          </a>
 
-            <a href="octopus.html">
-              <h5>Octopus 2020</h5>
-              <img src="Photos/Art/octopus.jpg">
-            </a>
+          <a id="octopus-2020" data-category="pencil" href="octopus.html">
+            <h5>Octopus 2020</h5>
+            <img src="Photos/Art/octopus.jpg">
+          </a>
 
           </div>
           <div class="pagebreak"></div>
 
         </div>
-        <div class="footer">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="projects.html" >WORK</a></li>
-        <li><a href="#">ART</a></li>
-        <li><a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" >RESUME</a></li>
-        <li><a href="https://github.com/saripagurek" target="_blank" >GITHUB</a></li>
-        <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
-      </ul>
-    </div>
-        <script src="JS/nav.js"></script>
+      </div>
+
+      <div class="footer">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="projects.html" >WORK</a></li>
+          <li><a href="#">ART</a></li>
+          <li><a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" >RESUME</a></li>
+          <li><a href="https://github.com/saripagurek" target="_blank" >GITHUB</a></li>
+          <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <script src="JS/nav.js"></script>
+      <script src="JS/filter.js"></script>
     </body>
 </html>
 
