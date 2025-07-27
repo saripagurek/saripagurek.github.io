@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JB2941NW1N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JB2941NW1N');
+</script>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sari Pagurek</title>
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+  </head>
+  <body>
+    
+    <div class="background">
+      <div class="container" style="--i: 0.05s;">
+
+      <div class="navbar">
+        <div class="menu">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">HOME</a>
+          </li>
+          <li>
+            <a href="projects.html" style="--i: 0.1s;">WORK</a>
+          </li>
+          <li>
+            <a href="art.html" style="--i: 0.15s;">ART</a>
+          </li>
+          <li>
+            <a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" style="--i: 0.2s;">RESUME</a>
+          </li>
+          <li>
+            <a href="https://github.com/saripagurek" target="_blank"  style="--i: 0.25s;">GITHUB</a>
+          </li>
+          <li>
+            <a href="mailto:sari.pvm@gmail.com" style="--i: 0.3s;">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="vertical_content">
+        
+        <div class="project_title">
+          <h1>Computer Assisted MPFL Reconstruction</h1>
+        <h2>Supervised by Professor James Stewart for CISC 499 @ Queen's University</h2>
+        </div>
+
+        <div class="text_block">
+          <a href="https://github.com/saripagurek/Computer-Assisted-MPFL-Reconstruction"target="_blank"><h8>View Source Code Here</h8></a>
+          <br><h8>Introduction:</h8>
+
+            <h8>
+                Medial Patellofemoral Ligament (MPFL) tears are a common injury among young athletes, often resulting from forceful patella dislocation. The MPFL secures the patella to the femur and, when torn, surgical reconstruction is performed to replace the ligament. The current surgical technique relies on locating Schottle’s point as an ideal attachment site, guided largely by the surgeon’s expertise.
+            </h8>
+            <img src="Photos/MPFL/knee_diagram.png">
+            <h8>
+              This project builds on an existing knee joint model of motion by integrating forces from the quadriceps muscle and patellar tendon, which are critical to knee motion and patellar tracking. By incorporating these forces, the enhanced model aims to assist in optimizing tendon length and selecting insertion points to reduce complications like graft impingement and maintaining graft isometry.
+            </h8>
+
+            <br><h8>Original Model:</h8>
+            <h8>
+              The original knee joint motion model simulates patellofemoral kinematics by calculating principal curvatures at many points between the patella and the femoral groove, and using these curvatures to cause the patella to track along the femoral groove. However, the model lacks force integration from the quadriceps muscle and patellar tendon, which are essential for accurate patellar motion simulation.
+            </h8>
+
+            <div class="text_images">
+              <img src="Photos/MPFL/before_1.png">
+              <img src="Photos/MPFL/after_1.png">
+            </div>
+            <h8>Fig 1: Positioning of the patella before and after effect of muscular and skeletal forces. Separator can be seen between the two bones.</h8>
+
+            <br><h8>New Model: Implementation</h8>
+            <h8>
+              To simulate the tendons that attach the patella to the quadriceps and to the tibial tuberosity, the new model incorporates a spring and damper system representing both the femoral tendon and the patellar tendon, with flexibility to add more tendons if needed. Each tendon is modeled using Hooke’s Law to calculate elastic force and a damping force to account for energy dissipation. These calculations depend on hyperparameters, including the spring constant, damping coefficient, and the spring's rest length. For ease of use, the interface features keyboard shortcuts and zoom functionality, allowing users to select tendon endpoints efficiently. The patella endpoint is fixed to the patella bone’s local coordinate system, ensuring stability during simulations.
+            </h8>
+
+            <br><h8>New Model: Simulation</h8>
+            <h8>
+              The new model uses a physics-and-kinematics simulation which captures all the external forces affecting the patella 3D object, and calculates a series of incremental advances of the patella. With each incremental advance, the springs cause the patellar mass to oscillate until velocity and acceleration reach minimal values, indicating equilibrium. This final position is considered the optimal patellar alignment along the principal curvature groove between the springs. The calculated position and corresponding rotation transformation matrices are used to update the 3D model of the patella.
+            </h8>
+            <h8>
+              Additionally, a slight repulsive force is applied from the skeletal separator (cartilage) between the patella and femur to prevent collision. This separator is represented by a series of points with normal vectors derived from the original principal curvature calculations, generating a small force away from the femur to maintain separation. All forces, including the separator force, are governed by weight hyperparameters to facilitate experimentation and fine-tuning of force magnitudes.
+            </h8>
+
+            <br><h8>Challenges & Model Decisions:</h8>
+            <h8>
+              Given the project’s scope, the patella’s rotation is approximated about its centroid rather than using precise torque and inertia calculations. Although tendon endpoints are not necessarily perfectly located, the rotational matrix sufficiently represents movement for demonstration purposes. This simplified approach balances computational efficiency with model realism.
+            </h8>
+
+            <br><h8>Output:</h8>
+
+            <div class="text_images">
+              <img src="Photos/MPFL/before_2.png">
+              <img src="Photos/MPFL/after_2.png">
+            </div>
+
+            <h8>Fig 2: Before and after from top down view.</h8>
+
+      </div>
+
+    </div>
+    </div>
+    
+    <div class="footer">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="projects.html" >WORK</a></li>
+        <li><a href="art.html">ART</a></li>
+        <li><a href="Docs/SariPagurekvanMossel_Resume.pdf" target="_blank" >RESUME</a></li>
+        <li><a href="https://github.com/saripagurek" target="_blank" >GITHUB</a></li>
+        <li><a href="mailto:sari.pvm@gmail.com">CONTACT</a></li>
+      </ul>
+    </div>
+    <script src="JS/nav.js"></script>
+  </body>
+</html>
